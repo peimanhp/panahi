@@ -10,6 +10,21 @@
   src: url(../fonts/PeydaWeb-Regular.woff2);
 }
 
+@font-face {
+  font-family: "moraba";
+  src: url(../fonts/Morabba-Bold\ [@ClubEdits].ttf);
+}
+
+h1 {
+  font-family: "moraba";
+  font-size: 3.7rem !important;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem !important;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -18,8 +33,30 @@
   font-size: 14px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--mobile-nav) !important;
+}
+
 body {
   overflow-x: hidden;
+}
+
+.red-title {
+  font-family: "moraba";
+  color: var(--red);
+  font-weight: 700;
+  font-size: 3.7rem;
+}
+
+.sub-title {
+  margin-top: 1.5em;
+  padding: 0 3em;
 }
 
 .search-bar {
@@ -36,10 +73,20 @@ body {
   width: 3em;
 }
 
-.login-btn {
+.btn-red {
   border-radius: 1em !important;
   color: white !important;
   background-color: var(--red) !important;
+}
+
+.btn-gray {
+  border-radius: 1em !important;
+  color: white !important;
+  background-color: var(--mobile-nav) !important;
+}
+
+.first-section-btns {
+  width: 10rem;
 }
 
 .offcanvas {
@@ -47,31 +94,47 @@ body {
   opacity: 0.9 !important;
 }
 
-.bg-body-tertiary {	
-	height: 6.5em !important;
+.bg-body-tertiary {
+  height: 6.5em !important;
 }
 
 .first-section {
   position: relative;
   height: 50em;
-  background: linear-gradient(180deg, rgb(256, 256, 256) 13.52%, #f3eef3 117.95%);
-
+  background: linear-gradient(
+    180deg,
+    rgb(256, 256, 256) 13.52%,
+    #f3eef3 117.95%
+  );
 }
 
 .first-section::after {
   background-color: #f5f1f5;
-	position: absolute;
-	bottom: -77px;
-	content: "";
-	width: 120%;
-	height: 326px;
-	border-radius: 100%;
-	z-index: -1;
-	left: -10%;
+  position: absolute;
+  bottom: -77px;
+  content: "";
+  width: 120%;
+  height: 326px;
+  border-radius: 100%;
+  z-index: -1;
+  left: -10%;
+}
+
+.panahi-photo {
+  max-width: 300px;
+  min-height: 300px;
+  object-fit: cover !important;
+  border: solid white 10px;
 }
 
 @media only screen and (max-width: 992px) {
   .nav-link {
     color: white !important;
+  }
+  .first-section {
+    height: 44em;
+  }
+  .first-section::after {
+    height: 150px;
   }
 }

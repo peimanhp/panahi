@@ -50,7 +50,7 @@
           <button class="btn">
             <img src="http://localhost/panahi/assets/img/bag-2.svg" alt="" />
           </button>
-          <button class="btn login-btn">ورود / ثبت نام</button>
+          <button class="btn btn-red">ورود / ثبت نام</button>
         </div>
       </div>
     </nav>
