@@ -43,6 +43,10 @@
   opacity: 0.9 !important;
 }
 
+.bg-body-tertiary {	
+	height: 6.5em !important;
+}
+
 @media only screen and (max-width: 992px) {
   .nav-link {
     color: white !important;
