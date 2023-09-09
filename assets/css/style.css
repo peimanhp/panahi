@@ -1,3 +1,10 @@
+:root {
+  --red: #fc2947;
+  --purple: #553378;
+  --gray: #e6e6e6;
+  --mobile-nav: #636c78;
+}
+
 @font-face {
   font-family: "peida-regular";
   src: url(../fonts/PeydaWeb-Regular.woff2);
@@ -14,7 +21,6 @@
 .search-bar {
   border-radius: 1em !important;
   background: #f1f0f7;
-  
 }
 
 .search-btn {
@@ -23,5 +29,22 @@
 }
 
 .logo {
-    width: 3em;
+  width: 3em;
+}
+
+.login-btn {
+  border-radius: 1em !important;
+  color: white !important;
+  background-color: var(--red) !important;
+}
+
+.offcanvas {
+  background-color: var(--mobile-nav) !important;
+  opacity: 0.9 !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-link {
+    color: white !important;
+  }
 }
