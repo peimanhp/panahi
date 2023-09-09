@@ -18,6 +18,10 @@
   font-size: 14px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .search-bar {
   border-radius: 1em !important;
   background: #f1f0f7;
@@ -45,6 +49,25 @@
 
 .bg-body-tertiary {	
 	height: 6.5em !important;
+}
+
+.first-section {
+  position: relative;
+  height: 50em;
+  background: linear-gradient(180deg, rgb(256, 256, 256) 13.52%, #f3eef3 117.95%);
+
+}
+
+.first-section::after {
+  background-color: #f5f1f5;
+	position: absolute;
+	bottom: -77px;
+	content: "";
+	width: 120%;
+	height: 326px;
+	border-radius: 100%;
+	z-index: -1;
+	left: -10%;
 }
 
 @media only screen and (max-width: 992px) {
