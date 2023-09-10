@@ -45,6 +45,7 @@ p {
 
 body {
   overflow-x: hidden;
+  padding: 0 !important;
 }
 
 .red-title {
@@ -111,23 +112,23 @@ body {
 .first-section::after {
   background-color: #f5f1f5;
   position: absolute;
-  bottom: -77px;
   content: "";
   width: 120%;
+  left: -10%;
+  bottom: -77px;
   height: 326px;
   border-radius: 100%;
   z-index: -1;
-  left: -10%;
 }
 
 .panahi-photo {
-  max-width: 300px;
-  min-height: 300px;
+  width: 300px;
+  height: 300px;
   object-fit: cover !important;
-  border: solid white 10px;
+  border: solid white 18px;
 }
 
-@media only screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .nav-link {
     color: white !important;
   }
@@ -136,5 +137,13 @@ body {
   }
   .first-section::after {
     height: 150px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .panahi-photo {
+    min-width: 450px;
+    min-height: 450px;  
+    border-radius: 68px;    
   }
 }
