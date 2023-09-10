@@ -135,6 +135,11 @@ body {
   justify-content: center;
 }
 
+.titles-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 992px) {
   .nav-link {
     color: white !important;
@@ -157,6 +162,9 @@ body {
   }
   .photo-wrapper {
     justify-content: end;
+  }
+  .titles-wrapper {
+    justify-content: start;
   }
   h1 {
     font-size: 5.8rem !important;

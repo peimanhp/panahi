@@ -2,7 +2,7 @@
 
 <section class="first-section">
     <div class="row row-gap-4 container">
-        <div class="col-12 col-md-6 d-flex justify-content-start">
+        <div class="col-12 col-md-6 titles-wrapper">
         <div class="text-center titles">
             <h2 class="mt-5">آکادمی آموزش تبلیغات</h2>            
             <h1>عارفه <span class="red-title">پناهــــی</span></h1>
