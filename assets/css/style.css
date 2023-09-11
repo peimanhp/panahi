@@ -1,5 +1,6 @@
 :root {
   --red: #fc2947;
+  --lightRed: #fed4da;
   --purple: #553378;
   --gray: #e6e6e6;
   --mobile-nav: #636c78;
@@ -55,6 +56,10 @@ body {
   font-size: 3.7rem;
 }
 
+.red-title:hover {
+  color: var(--purple);
+}
+
 .sub-title {
   margin-top: 1.5em;
 }
@@ -86,7 +91,16 @@ body {
 }
 
 .first-section-btns {
+  box-sizing: border-box !important;
   width: 9.5rem;
+}
+
+.btn-red:hover {
+  background-color: var(--purple) !important;
+}
+
+.btn-gray:hover {
+  background-color: black !important;
 }
 
 .offcanvas {
@@ -140,6 +154,45 @@ body {
   justify-content: center;
 }
 
+.second-section {
+  margin-top: 7em;
+}
+
+.courses-title {
+  font-family: Morabba;
+  font-weight: 700;  
+  font-size: 2.8em;
+}
+
+.courses-content {
+  font-size: 1.4em;
+  text-align: justify;
+  text-justify: inter-character;
+}
+
+.course-name {
+  font-size: 1.4em;
+  margin-top: .3em;
+}
+
+.price {
+  font-family: Morabba;
+  font-size: 1em;
+}
+
+.course-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px;
+  background-color: #F7F7FB;
+  padding: 1em;
+  border-radius: 25px;
+  box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.15);  
+}
+
+
+
 @media screen and (max-width: 992px) {
   .nav-link {
     color: white !important;
@@ -165,6 +218,7 @@ body {
   }
   .titles-wrapper {
     justify-content: start;
+    padding-right: 0;
   }
   h1 {
     font-size: 5.8rem !important;
@@ -181,6 +235,9 @@ body {
   }
   .titles {
     padding-top: 3em;
+  }
+  .second-section {
+    margin-top: 12em;
   }
 }
 
