@@ -50,7 +50,7 @@
                     <img src="./assets/img/profile-circle.svg" alt="author">
                     <p class="mb-0">مدرس: عارفه پناهی</p>
                 </div>
-                <h3 class="course-name">دوره آموزشی شماره سه</h3>
+                <h3 class="course-name">دوره آموزشی شماره چهار</h3>
                 <h4 class="price">4.000.000 تومان</h4>
                 <button class="btn btn-red">مشاهده</button>
             </div>
@@ -62,14 +62,62 @@
                     <img src="./assets/img/profile-circle.svg" alt="author">
                     <p class="mb-0">مدرس: عارفه پناهی</p>
                 </div>
-                <h3 class="course-name">دوره آموزشی شماره سه</h3>
+                <h3 class="course-name">دوره آموزشی شماره پنج</h3>
                 <h4 class="price">4.000.000 تومان</h4>
                 <button class="btn btn-red">مشاهده</button>
             </div>
         </div>
-        
     </div>
-
 </section>
+<div class="container">
+<section class="splide" aria-label="Splide Basic HTML Example">
+  <div class="splide__track">
+		<ul class="splide__list">
+			<li class="splide__slide">
+            <div class="d-flex justify-content-center p-5">
+            <div class="course-card-content">
+                <img class="slider-img" src="./assets/img/package-img.png" alt="package-img">
+                <div class="d-flex align-items-center gap-1">
+                    <img src="./assets/img/profile-circle.svg" alt="author">
+                    <p class="mb-0">مدرس: عارفه پناهی</p>
+                </div>
+                <h3 class="course-name">دوره آموزشی شماره چهار</h3>
+                <h4 class="price">4.000.000 تومان</h4>
+                <button class="btn btn-red">مشاهده</button>
+            </div>
+            </div>
+            </li>
+			<li class="splide__slide">
+            <div class="d-flex justify-content-center p-5">
+            <div class="course-card-content">
+                <img class="slider-img" src="./assets/img/package-img.png" alt="package-img">
+                <div class="d-flex align-items-center gap-1">
+                    <img src="./assets/img/profile-circle.svg" alt="author">
+                    <p class="mb-0">مدرس: عارفه پناهی</p>
+                </div>
+                <h3 class="course-name">دوره آموزشی شماره چهار</h3>
+                <h4 class="price">4.000.000 تومان</h4>
+                <button class="btn btn-red">مشاهده</button>
+            </div>
+            </div>
+            </li>
+			<li class="splide__slide">
+            <div class="d-flex justify-content-center p-5">
+            <div class="course-card-content">
+                <img class="slider-img" src="./assets/img/package-img.png" alt="package-img">
+                <div class="d-flex align-items-center gap-1">
+                    <img src="./assets/img/profile-circle.svg" alt="author">
+                    <p class="mb-0">مدرس: عارفه پناهی</p>
+                </div>
+                <h3 class="course-name">دوره آموزشی شماره چهار</h3>
+                <h4 class="price">4.000.000 تومان</h4>
+                <button class="btn btn-red">مشاهده</button>
+            </div>
+            </div>
+            </li>
+		</ul>
+  </div>
+</section>
+</div>
 
 <?php include_once 'view/footer.php' ?>
