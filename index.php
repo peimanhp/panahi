@@ -24,12 +24,15 @@
 <section class="second-section container mb-5">
     <div class="row row-gap-4">
         <div class="col col-12 col-md-5 col-lg-3 col-xl-4 col-xxl-3 px-3">
-            <h3 class="courses-title mb-4 ">دوره های آموزشی</h3>
+            <h3 class="courses-title mt-5 mb-4 ">دوره های آموزشی</h3>
             <p class="courses-content">
                 لورم ایپسوم متن ساختگی با تولید
                 سادگی نامفهوم ازصنعت چاپ و با استفاده
                 از طراحان گرافیک است.
             </p>
+            <div class="d-grid gap-2 col-6 mx-auto mt-5">                
+                <button class="btn btn-gray">مشاهده همه</button>
+            </div>
         </div>
         <div class="col col-12 col-md-7 col-lg-9 col-xl-8 col-xxl-9 px-5">
             <section class="splide" aria-label="Splide Basic HTML Example">
