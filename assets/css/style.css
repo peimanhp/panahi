@@ -62,11 +62,17 @@ body {
   color: var(--red);
   font-weight: 700;
   font-size: 3.7rem;
-  transition: all 0.3s;
+  transition: all 0.2s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, var(--red), var(--red) 50%, var(--purple) 50%);
+  background-size: 200% 100%;
+  background-position: 0;
 }
 
 .red-title:hover {
-  color: var(--purple);
+  transition: all 0.2s cubic-bezier(0, 0, 0.23, 1);
+  background-position: 100%;
 }
 
 .sub-title {

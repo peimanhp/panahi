@@ -1,6 +1,5 @@
 window.onload = replaceEnToFaDigits();
 function replaceEnToFaDigits() {
-  console.log("js load ok");
   let map = [
     "&#1776;",
     "&#1777;",
@@ -43,4 +42,4 @@ var splide = new Splide(".splide", {
 
 splide.mount();
 
-// new Splide( '.splide' ).mount();
+

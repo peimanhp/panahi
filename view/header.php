@@ -17,7 +17,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#"><img class="logo" src="http://localhost/panahi/assets/img/logo.png" alt="logo" /></a>
+        <a class="navbar-brand" href="#"><img class="logo" src="http://localhost/panahi/assets/img/new-logo.png" alt="logo" /></a>
 
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
