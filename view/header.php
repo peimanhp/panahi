@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>وب سایت شخصی عارفه پناهی</title>
-  <link rel="stylesheet" href="http://localhost/panahi/assets/css/style.css" />
-  <link href="http://localhost/panahi/assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
-  <link href="http://localhost/panahi/assets/css/splide.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../../panahi/assets/css/style.css" />
+  <link href="../../../panahi/assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link href="../../../panahi/assets/css/splide.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#"><img class="logo" src="http://localhost/panahi/assets/img/new-logo.png" alt="logo" /></a>
+        <a class="navbar-brand" href="#"><img class="logo" src="../../../panahi/assets/img/new-logo.png" alt="logo" /></a>
 
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
@@ -42,7 +42,7 @@
             <form class="d-flex position-relative align-items-center" role="search">
               <input class="form-control me-2 search-bar" type="search" placeholder="جست و جو ..." aria-label="Search" />
               <button class="btn btn-outline-none search-btn" type="submit">
-                <img src="http://localhost/panahi/assets/img/search-normal.svg" alt="" />
+                <img src="../../../panahi/assets/img/search-normal.svg" alt="" />
               </button>
             </form>
           </div>
@@ -51,7 +51,7 @@
           <button class="btn">
             <img src="http://localhost/panahi/assets/img/bag-2.svg" alt="" />
           </button>
-          <button class="btn btn-red">ورود / ثبت نام</button>
+          <a href="./login.php" class="btn btn-red">ورود / ثبت نام</a>          
         </div>
       </div>
     </nav>
