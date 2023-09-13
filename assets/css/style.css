@@ -1,5 +1,6 @@
 :root {
   --red: #fc2947;
+  --lightRed: #fed4da;
   --purple: #553378;
   --gray: #e6e6e6;
   --mobile-nav: #636c78;
@@ -33,6 +34,14 @@ h2 {
   font-size: 14px;
 }
 
+a {
+	-webkit-transition: all 150ms ease;
+	-moz-transition: all 150ms ease;
+	-ms-transition: all 150ms ease;
+	-o-transition: all 150ms ease;
+	transition: all 150ms ease; 
+	}
+
 h1,
 h2,
 h3,
@@ -53,11 +62,21 @@ body {
   color: var(--red);
   font-weight: 700;
   font-size: 3.7rem;
+  transition: all 0.2s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, var(--red), var(--red) 50%, var(--purple) 50%);
+  background-size: 200% 100%;
+  background-position: 0;
+}
+
+.red-title:hover {
+  transition: all 0.2s cubic-bezier(0, 0, 0.23, 1);
+  background-position: 100%;
 }
 
 .sub-title {
   margin-top: 1.5em;
-  padding: 0 3em;
 }
 
 .search-bar {
@@ -87,7 +106,16 @@ body {
 }
 
 .first-section-btns {
-  width: 10rem;
+  box-sizing: border-box !important;
+  width: 9.5rem;
+}
+
+.btn-red:hover {
+  background-color: var(--purple) !important;
+}
+
+.btn-gray:hover {
+  background-color: black !important;
 }
 
 .offcanvas {
@@ -100,8 +128,9 @@ body {
 }
 
 .first-section {
+  display: flex;
+  justify-content: center;
   position: relative;
-  height: 50em;
   background: linear-gradient(
     180deg,
     rgb(256, 256, 256) 13.52%,
@@ -110,33 +139,109 @@ body {
 }
 
 .first-section::after {
-  background-color: #f5f1f5;
-  position: absolute;
-  content: "";
-  width: 120%;
-  left: -10%;
-  bottom: -77px;
-  height: 326px;
-  border-radius: 100%;
-  z-index: -1;
+	position: absolute;
+	background-color: #f5f1f5;
+	content: "";
+	width: 100%;
+	left: 0;
+	bottom: -118px;
+	height: 244px;
+	border-radius: 50%;
+	z-index: -1;
 }
 
 .panahi-photo {
   width: 300px;
   height: 300px;
   object-fit: cover !important;
-  border: solid white 18px;
+  border: solid white 10px;
+  border-radius: 36px;
+  margin-top: 1em;
 }
+
+.photo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.titles-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.second-section {
+  margin-top: 7em;
+}
+
+.courses-title {
+  font-family: Morabba;
+  font-weight: 700;  
+  font-size: 2.8em;
+}
+
+.courses-content {
+  font-size: 1.4em;
+  text-align: justify;
+  text-justify: inter-character;
+}
+
+.course-name {
+  font-size: 1.4em;
+  margin-top: .3em;
+}
+
+.price {
+  font-family: Morabba;
+  font-size: 1em;
+}
+
+.course-card-content {
+  max-width: 265px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px;
+  background-color: #F7F7FB;
+  padding: 1em;
+  border-radius: 25px;
+  box-shadow: 0px 1px 9px 4px rgba(0, 0, 0, 0.10);  
+}
+
+.slide-item {
+  padding: 2em;
+}
+
+.slider-img {
+  object-fit: contain;
+}
+
+.splide__arrows--rtl .splide__arrow--prev {
+	right: -2em !important;
+}
+
+.splide__arrows--rtl .splide__arrow--next {
+	left: -2em !important;
+}
+
+.splide__arrow {	
+	background: #F7F7FB !important;	
+}
+
 
 @media screen and (max-width: 992px) {
   .nav-link {
     color: white !important;
   }
-  .first-section {
-    height: 44em;
+  
+  .first-section::after {    
+    bottom: -59px;
+    height: 111px;    
   }
-  .first-section::after {
-    height: 150px;
+  .splide__arrows--rtl .splide__arrow--prev {
+    right: -2em !important;
+  }
+  .splide__arrows--rtl .splide__arrow--next {
+    left: -2em !important;
   }
 }
 
@@ -144,6 +249,37 @@ body {
   .panahi-photo {
     min-width: 450px;
     min-height: 450px;  
-    border-radius: 68px;    
+    border: solid white 18px;
+    border-radius: 68px; 
+  }
+  .photo-wrapper {
+    justify-content: end;
+  }
+  .titles-wrapper {
+    justify-content: start;
+    padding-right: 0;
+  }
+  h1 {
+    font-size: 5.8rem !important;
+  }
+  .red-title {    
+    font-size: 5.8rem;
+  }
+  h2 {
+    font-size: 2.5rem !important;
+  }
+  .first-section-btns {
+    width: 12em;
+    font-size: 1.3em !important;
+  }
+  .titles {
+    padding-top: 3em;
+  }
+  .second-section {
+    margin-top: 12em;
   }
 }
+
+
+
+
