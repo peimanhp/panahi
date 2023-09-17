@@ -17,7 +17,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#"><img class="logo" src="../../../panahi/assets/img/new-logo.png" alt="logo" /></a>
+        <a class="navbar-brand" href="./index.php"><img class="logo" src="../../../panahi/assets/img/logo.svg" alt="logo" /></a>
 
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
@@ -49,9 +49,9 @@
         </div>
         <div>
           <button class="btn">
-            <img src="http://localhost/panahi/assets/img/bag-2.svg" alt="" />
+            <img src="../../../panahi/assets/img/bag-2.svg" alt="" />
           </button>
-          <a href="./login.php" class="btn btn-red">ورود / ثبت نام</a>          
+          <a href="./view/public/login.php" class="btn btn-red">ورود / ثبت نام</a>          
         </div>
       </div>
     </nav>

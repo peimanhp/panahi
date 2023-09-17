@@ -30,7 +30,7 @@
                 سادگی نامفهوم ازصنعت چاپ و با استفاده
                 از طراحان گرافیک است.
             </p>
-            <div class="d-grid gap-2 col-6 mx-auto mt-5">                
+            <div class="d-grid gap-2 col-6 mx-auto mt-5">
                 <button class="btn btn-gray">مشاهده همه</button>
             </div>
         </div>
@@ -128,6 +128,7 @@
         </div>
     </div>
 </section>
+
 
 
 
