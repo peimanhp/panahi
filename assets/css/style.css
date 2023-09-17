@@ -291,13 +291,21 @@ body {
   color: var(--mobile-nav);
 }
 
-.btn-sms{
+.btn-sms {
   font-size: 1.3em !important;
   height: 46px;
 }
 
-.red-link {  
-  color: var(--red);  
+.red-link {
+  color: var(--red);
+}
+
+.text-login {
+  color: var(--mobile-nav);
+  text-align: justify;
+  text-justify: inter-character;
+  font-weight: 500;
+  line-height: 163.5%; /* 22.89px */
 }
 
 @media screen and (max-width: 992px) {
