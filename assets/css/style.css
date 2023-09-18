@@ -286,6 +286,11 @@ body {
   width: 282px;
 }
 
+.sms-wrapper {
+  background-color: #f5f5fa;
+  border-radius: 2em;;
+}
+
 .input-code {
   font-family: "peyda" !important;
   font-weight: 600;

@@ -2,7 +2,7 @@
 
 <div class="desktop-view mt-5">
     <div class="login-wrapper">
-        <section class="container">
+        <section class="container sms-wrapper">
             <form class="form-sms mx-auto" action="#">
                 <h1 class="text-center login-title">ورود</h1>
                 <p class="text-login">جهت ورود یا ثبت نام در سایت، شماره موبایل خود را با دقت وارد کنید تا یک پیام حاوی کد فعال سازی برایتان ارسال شود. (فقط کاربران جمهوری اسلامی ایران)</p>
@@ -10,7 +10,7 @@
                 <button class="btn btn-red btn-sms mb-3">ارسال رمز یکبار مصرف</button>
             </form>
         </section>
-        <section class="girl-wrapper">            
+        <section class="girl-wrapper">
             <img class="" src="../../assets/img/boy-login.svg" alt="">
         </section>
     </div>
