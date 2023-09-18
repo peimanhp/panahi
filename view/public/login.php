@@ -3,7 +3,7 @@
 <div class="desktop-view mt-5">
     <div class="login-wrapper">
         <section class="container sms-wrapper">
-            <form class="form-sms mx-auto" action="#">
+            <form class="form-sms mx-auto mt-4" action="#">
                 <h1 class="text-center login-title">ورود</h1>
                 <p class="text-login">جهت ورود یا ثبت نام در سایت، شماره موبایل خود را با دقت وارد کنید تا یک پیام حاوی کد فعال سازی برایتان ارسال شود. (فقط کاربران جمهوری اسلامی ایران)</p>
                 <input class="input input-code mb-3" type="text" placeholder="شماره موبایل">

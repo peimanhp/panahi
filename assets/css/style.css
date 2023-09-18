@@ -346,6 +346,10 @@ body {
   .splide__arrows--rtl .splide__arrow--next {
     left: -2em !important;
   }
+  .red-circle-login {
+    width: 100% !important;
+    height: 200px !important;
+  }
   .desktop-view {
     display: none !important;
   }
@@ -383,11 +387,7 @@ body {
   }
   .second-section {
     margin-top: 12em;
-  }
-  .red-circle-login {
-    width: 100% !important;
-    height: 200px !important;
-  }
+  }  
   .mobile-view {
     display: none !important;
   }
