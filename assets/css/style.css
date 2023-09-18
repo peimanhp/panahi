@@ -248,6 +248,12 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.girl-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .input-time {
   font-family: "peyda" !important;
   font-weight: 600;
@@ -308,11 +314,23 @@ body {
   line-height: 163.5%; /* 22.89px */
 }
 
+.login-wrapper {
+  display: flex;
+  width: 775px;
+  height: 500px;
+  background-color: var(--red);
+  border-radius: 2em;
+}
+
+.desktop-view {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 992px) {
   .nav-link {
     color: white !important;
   }
-
   .first-section::after {
     bottom: -59px;
     height: 111px;
@@ -322,6 +340,9 @@ body {
   }
   .splide__arrows--rtl .splide__arrow--next {
     left: -2em !important;
+  }
+  .desktop-view {
+    display: none !important;
   }
 }
 
@@ -361,5 +382,8 @@ body {
   .red-circle-login {
     width: 100% !important;
     height: 200px !important;
+  }
+  .mobile-view {
+    display: none !important;
   }
 }
