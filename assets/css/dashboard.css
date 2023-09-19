@@ -1,0 +1,185 @@
+:root {
+  --red: #fc2947;
+  --lightRed: #fed4da;
+  --purple: #553378;
+  --gray: #e6e6e6;
+  --mobile-nav: #636c78;
+}
+
+@font-face {
+  font-family: "peida-regular";
+  src: url(../fonts/PeydaWeb-Regular.woff2);
+}
+
+@font-face {
+  font-family: "moraba";
+  src: url(../fonts/Morabba-Bold\ [@ClubEdits].ttf);
+}
+
+h1 {
+  font-family: "moraba";
+  font-size: 3.7rem !important;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem !important;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "peida-regular";
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none !important;
+  -webkit-transition: all 150ms ease;
+  -moz-transition: all 150ms ease;
+  -ms-transition: all 150ms ease;
+  -o-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--mobile-nav) !important;
+}
+
+body {
+  overflow-x: hidden;
+  padding: 0 !important;
+}
+
+::placeholder {
+  font-family: "peyda-regular" !important;
+}
+
+.red-title {
+  font-family: "moraba";
+  color: var(--red);
+  font-weight: 700;
+  font-size: 3.7rem;
+  transition: all 0.2s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    to right,
+    var(--red),
+    var(--red) 50%,
+    var(--purple) 50%
+  );
+  background-size: 200% 100%;
+  background-position: 0;
+}
+
+.red-title:hover {
+  transition: all 0.2s cubic-bezier(0, 0, 0.23, 1);
+  background-position: 100%;
+}
+
+.sub-title {
+  margin-top: 1.5em;
+}
+
+.search-bar {
+  border-radius: 1em !important;
+  background: #f1f0f7;
+}
+
+.search-btn {
+  position: absolute !important;
+  left: 0;
+}
+
+.logo {
+  width: 3em;
+}
+
+.btn-red {
+  border-radius: 1em !important;
+  color: white !important;
+  background-color: var(--red) !important;
+}
+
+.input {
+  background-color: white !important;
+  border: none;
+  width: 130px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 1em !important;
+}
+
+.btn-gray {
+  border-radius: 1em !important;
+  color: white !important;
+  background-color: var(--mobile-nav) !important;
+}
+
+.first-section-btns {
+  box-sizing: border-box !important;
+  width: 9.5rem;
+}
+
+.btn-red:hover {
+  background-color: var(--purple) !important;
+}
+
+.btn-gray:hover {
+  background-color: black !important;
+}
+
+.offcanvas {
+  background-color: var(--mobile-nav) !important;
+  opacity: 0.9 !important;
+}
+
+.bg-body-tertiary {
+  height: 6.5em !important;
+}
+
+.body-dashboard {
+  background-color: #f7f7fb;
+}
+
+nav {
+  background-color: white !important;
+}
+
+@media screen and (min-width: 992px) {
+  nav {
+    position: absolute !important;
+    display: flex !important;
+    flex-direction: column !important;
+    height: 400px !important;
+    top: 50px;
+    right: 50px;
+    border-radius: 14px;
+  }
+
+  .nav-styler {
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: white !important;
+    border-radius: 1em;
+    padding: 2em !important;
+  }
+
+  .offcanvas-body {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  ul {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
