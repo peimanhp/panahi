@@ -58,6 +58,10 @@ body {
   padding: 0 !important;
 }
 
+::placeholder {
+  font-family: "peyda-regular" !important;
+}
+
 .red-title {
   font-family: "moraba";
   color: var(--red);
@@ -106,6 +110,7 @@ body {
 }
 
 .input {
+  background-color: white !important;
   border: none;
   width: 130px;
   height: 46px;
@@ -287,7 +292,8 @@ body {
 }
 
 .sms-wrapper {
-  background-color: #f5f5fa;
+  background-color: #F8F7FA;
+  transform: translateX(1px);
   border-radius: 2em;;
 }
 
@@ -329,7 +335,13 @@ body {
 
 .desktop-view {
   display: flex;
+  min-height: 100vh;
   justify-content: center;
+  align-items: center;
+}
+
+.body-login {
+  background-color: #fff;
 }
 
 @media screen and (max-width: 992px) {

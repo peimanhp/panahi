@@ -1,39 +1,53 @@
-<?php include_once '../header.php' ?>
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
 
-<div class="desktop-view mt-5">
-    <div class="login-wrapper">
-        <section class="container sms-wrapper">
-            <form class="form-sms mx-auto mt-4" action="#">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>وب سایت شخصی عارفه پناهی</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="http://localhost/panahi/assets/css/style.css" />
+    <link href="http://localhost/panahi/assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <link href="http://localhost/panahi/assets/css/splide.min.css" rel="stylesheet">
+</head>
+
+<body class="body-login">
+    <div class="desktop-view">
+        <div class="login-wrapper">
+            <section class="container sms-wrapper">
+                <form class="form-sms mx-auto mt-4" action="#">
+                    <h1 class="text-center login-title">ورود</h1>
+                    <p class="text-login">جهت ورود یا ثبت نام در سایت، شماره موبایل خود را با دقت وارد کنید تا یک پیام حاوی کد فعال سازی برایتان ارسال شود. (فقط کاربران جمهوری اسلامی ایران)</p>
+                    <input class="input input-code mb-3" type="text" placeholder="شماره موبایل">
+                    <button class="btn btn-red btn-sms mb-3">ارسال رمز یکبار مصرف</button>
+                </form>
+            </section>
+            <section class="girl-wrapper">
+                <img class="" src="../../assets/img/boy-login.svg" alt="">
+            </section>
+        </div>
+    </div>
+    <div class="mobile-view">
+        <section class="position-relative">
+            <img class="red-circle-login" src="../../assets/img/red-circle.svg" alt="">
+            <img class="girl-photo" src="../../assets/img/boy-login.svg" alt="">
+        </section>
+        <section class="container">
+            <form class="form-sms mx-auto" action="#">
                 <h1 class="text-center login-title">ورود</h1>
                 <p class="text-login">جهت ورود یا ثبت نام در سایت، شماره موبایل خود را با دقت وارد کنید تا یک پیام حاوی کد فعال سازی برایتان ارسال شود. (فقط کاربران جمهوری اسلامی ایران)</p>
                 <input class="input input-code mb-3" type="text" placeholder="شماره موبایل">
                 <button class="btn btn-red btn-sms mb-3">ارسال رمز یکبار مصرف</button>
             </form>
         </section>
-        <section class="girl-wrapper">
-            <img class="" src="../../assets/img/boy-login.svg" alt="">
-        </section>
     </div>
-</div>
-<div class="mobile-view">
-    <section class="position-relative">
-        <img class="red-circle-login" src="../../assets/img/red-circle.svg" alt="">
-        <img class="girl-photo" src="../../assets/img/boy-login.svg" alt="">
-    </section>
-    <section class="container">
-        <form class="form-sms mx-auto" action="#">
-            <h1 class="text-center login-title">ورود</h1>
-            <p class="text-login">جهت ورود یا ثبت نام در سایت، شماره موبایل خود را با دقت وارد کنید تا یک پیام حاوی کد فعال سازی برایتان ارسال شود. (فقط کاربران جمهوری اسلامی ایران)</p>
-            <input class="input input-code mb-3" type="text" placeholder="شماره موبایل">
-            <button class="btn btn-red btn-sms mb-3">ارسال رمز یکبار مصرف</button>
-        </form>
-    </section>
-</div>
 
+    <script type="module" src="../../../../panahi/assets/js/main.js"></script>
+    <script src="../../../../panahi/assets/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="../../../../panahi/assets/js/splide.min.js"></script>
+</body>
 
-
-
-
-
-
-<?php include_once '../footer.php' ?>
+</html>
