@@ -156,7 +156,7 @@ nav {
 
 .active {
   background-color: var(--red) !important;
-  border-radius: 1em;  
+  border-radius: 1em;
 }
 
 li p {
@@ -164,12 +164,8 @@ li p {
   font-weight: 800;
 }
 
-.active p{
+.active p {
   color: white !important;
-}
-
-.navbar-brand {
-  margin-bottom: 1em !important;
 }
 
 .logout-text {
@@ -183,17 +179,17 @@ li p {
 }
 
 .role {
-  font-size: 12px;  
+  font-size: 12px;
 }
 
 @media screen and (max-width: 992px) {
   li p {
     font-weight: 800;
     color: white !important;
-  }  
+  }
 }
 
-@media screen and (min-width: 992px) {  
+@media screen and (min-width: 992px) {
   nav {
     position: absolute !important;
     display: flex !important;
@@ -209,7 +205,7 @@ li p {
     flex-direction: column !important;
     background-color: white !important;
     border-radius: 1em;
-    padding: 2em !important;    
+    padding: 2em !important;
   }
 
   .offcanvas-body {
@@ -222,4 +218,15 @@ li p {
     flex-direction: column !important;
     min-width: 220px;
   }
+  .nav-item:hover {
+    background-color: #ffe2e6 !important;
+    border-radius: 1em;
+  }
+  /* .nav-item:hover p {
+    color: white !important;
+  }
+  .nav-item:hover img {
+    filter: invert(85%) sepia(99%) saturate(8%) hue-rotate(152deg)
+      brightness(105%) contrast(100%);
+  } */
 }

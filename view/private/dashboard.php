@@ -40,7 +40,7 @@
                 <a id="home_btn" class="nav-link py-3 px-3 active" aria-current="page" href="#">
                   <div class="d-flex align-items-center">
                     <img src="/panahi/assets/img/vuesax-outline-home.svg" alt="home" />
-                    <p class="m-0 pe-1">خانه</p>
+                    <p class="m-0 pe-2">خانه</p>
                   </div>
                 </a>
               </li>
@@ -48,7 +48,7 @@
                 <a id="profile_btn" class="nav-link py-3 px-3" aria-current="page" href="#">
                   <div class="d-flex align-items-center">
                     <img src="/panahi/assets/img/user-edit.svg" alt="profile" />
-                    <p class="m-0 pe-1">پـروفایـل</p>
+                    <p class="m-0 pe-2">پـروفایـل</p>
                   </div>
                 </a>
               </li>
@@ -56,19 +56,19 @@
                 <a id="orders_btn" class="nav-link py-3 px-3" aria-current="page" href="#">
                   <div class="d-flex align-items-center">
                     <img src="/panahi/assets/img/vuesax-outline-bag-2.svg" alt="bag" />
-                    <p class="m-0 pe-1">سفارش ها</p>
+                    <p class="m-0 pe-2">سفارش ها</p>
                   </div>
                 </a>
               </li>
-              <!-- <li class="nav-item">
+              <li class="nav-item">
                 <a id="wallet_btn" class="nav-link py-3 px-3" aria-current="page" href="#">
                   <div class="d-flex align-items-center">
-                    <img src="../../../panahi/assets/img/wallet.svg" alt="wallet" />
-                    <p class="m-0 pe-1">کیف پول</p>
+                    <img src="/panahi/assets/img/ticket-icon.svg" alt="ticket" />
+                    <p class="m-0 pe-2">پشتیبانی</p>
                   </div>                  
                 </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a id="finance_btn" class="nav-link py-3 px-3" aria-current="page" href="#">
                   <div class="d-flex align-items-center">
                     <img src="../../../panahi/assets/img/coin.svg" alt="finance" />
@@ -80,7 +80,7 @@
                 <a id="logout_btn" class="nav-link py-3 px-3" aria-current="page" href="#">
                   <div class="d-flex align-items-center">
                     <img src="/panahi/assets/img/logout.svg" alt="logout" />
-                    <p class="m-0 pe-1 logout-text">خروج</p>
+                    <p class="m-0 pe-2 logout-text">خروج</p>
                   </div>
                 </a>
               </li>
