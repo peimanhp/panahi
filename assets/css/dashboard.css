@@ -154,7 +154,32 @@ nav {
   background-color: white !important;
 }
 
-@media screen and (min-width: 992px) {
+.active {
+  background-color: var(--red) !important;
+  border-radius: 1em;  
+}
+
+.active p{
+  color: white !important;
+}
+
+.navbar-brand {
+  margin-bottom: 1em !important;
+}
+
+.logout-text {
+  color: var(--red) !important;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  li p {
+    color: white !important;
+  }  
+}
+
+@media screen and (min-width: 992px) {  
   nav {
     position: absolute !important;
     display: flex !important;
@@ -170,7 +195,7 @@ nav {
     flex-direction: column !important;
     background-color: white !important;
     border-radius: 1em;
-    padding: 2em !important;
+    padding: 2em !important;    
   }
 
   .offcanvas-body {
@@ -181,5 +206,6 @@ nav {
   ul {
     display: flex !important;
     flex-direction: column !important;
+    min-width: 220px;
   }
 }
