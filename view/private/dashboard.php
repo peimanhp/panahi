@@ -24,7 +24,6 @@
         </a>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">لوگو</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="d-flex align-items-center m-3 gap-3">
@@ -65,7 +64,7 @@
                   <div class="d-flex align-items-center">
                     <img src="/panahi/assets/img/ticket-icon.svg" alt="ticket" />
                     <p class="m-0 pe-2">پشتیبانی</p>
-                  </div>                  
+                  </div>
                 </a>
               </li>
               <!-- <li class="nav-item">
@@ -80,20 +79,42 @@
                 <a id="logout_btn" class="nav-link py-3 px-3" aria-current="page" href="#">
                   <div class="d-flex align-items-center">
                     <img src="/panahi/assets/img/logout.svg" alt="logout" />
-                    <p class="m-0 pe-2 logout-text">خروج</p>
+                    <p class="m-0 pe-2">خروج</p>
                   </div>
                 </a>
               </li>
             </ul>
-
           </div>
         </div>
       </div>
     </nav>
   </header>
-
-
-
+  <div class="row row-gap-4">
+    <div class="col-12 col-md-6 text-center ">
+      <div class="dash-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aliquam ad neque inventore dicta, ducimus ipsum, enim maxime earum tempora amet asperiores cumque quaerat in veniam voluptatum? Ullam, cumque. Quos rerum laudantium ab explicabo culpa dolore dolor, itaque officia officiis expedita dolorum repellendus velit magnam alias quasi? Quidem officia nemo at, quibusdam minima autem aliquid veritatis a repudiandae repellendus quas tempora cupiditate hic expedita nostrum quam cumque omnis ducimus dolorum pariatur. Debitis facilis nam placeat fuga recusandae odit voluptates explicabo nihil, reiciendis quis natus, saepe autem quibusdam earum culpa, delectus optio. Fuga commodi doloribus excepturi, ad totam iste odit maiores?</div>
+    </div>
+    <div class="col-12 col-md-6 text-center ">
+      <div class="dash-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aliquam ad neque inventore dicta, ducimus ipsum, enim maxime earum tempora amet asperiores cumque quaerat in veniam voluptatum? Ullam, cumque. Quos rerum laudantium ab explicabo culpa dolore dolor, itaque officia officiis expedita dolorum repellendus velit magnam alias quasi? Quidem officia nemo at, quibusdam minima autem aliquid veritatis a repudiandae repellendus quas tempora cupiditate hic expedita nostrum quam cumque omnis ducimus dolorum pariatur. Debitis facilis nam placeat fuga recusandae odit voluptates explicabo nihil, reiciendis quis natus, saepe autem quibusdam earum culpa, delectus optio. Fuga commodi doloribus excepturi, ad totam iste odit maiores?</div>
+    </div>
+    <div class="col-12 col-md-6 text-center ">
+      <div class="dash-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aliquam ad neque inventore dicta, ducimus ipsum, enim maxime earum tempora amet asperiores cumque quaerat in veniam voluptatum? Ullam, cumque. Quos rerum laudantium ab explicabo culpa dolore dolor, itaque officia officiis expedita dolorum repellendus velit magnam alias quasi? Quidem officia nemo at, quibusdam minima autem aliquid veritatis a repudiandae repellendus quas tempora cupiditate hic expedita nostrum quam cumque omnis ducimus dolorum pariatur. Debitis facilis nam placeat fuga recusandae odit voluptates explicabo nihil, reiciendis quis natus, saepe autem quibusdam earum culpa, delectus optio. Fuga commodi doloribus excepturi, ad totam iste odit maiores?</div>
+    </div>
+    <div class="col-12 col-md-6 text-center ">
+      <div class="dash-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aliquam ad neque inventore dicta, ducimus ipsum, enim maxime earum tempora amet asperiores cumque quaerat in veniam voluptatum? Ullam, cumque. Quos rerum laudantium ab explicabo culpa dolore dolor, itaque officia officiis expedita dolorum repellendus velit magnam alias quasi? Quidem officia nemo at, quibusdam minima autem aliquid veritatis a repudiandae repellendus quas tempora cupiditate hic expedita nostrum quam cumque omnis ducimus dolorum pariatur. Debitis facilis nam placeat fuga recusandae odit voluptates explicabo nihil, reiciendis quis natus, saepe autem quibusdam earum culpa, delectus optio. Fuga commodi doloribus excepturi, ad totam iste odit maiores?</div>
+    </div>
+    <div class="col-12 col-md-6 text-center ">
+      <div class="dash-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aliquam ad neque inventore dicta, ducimus ipsum, enim maxime earum tempora amet asperiores cumque quaerat in veniam voluptatum? Ullam, cumque. Quos rerum laudantium ab explicabo culpa dolore dolor, itaque officia officiis expedita dolorum repellendus velit magnam alias quasi? Quidem officia nemo at, quibusdam minima autem aliquid veritatis a repudiandae repellendus quas tempora cupiditate hic expedita nostrum quam cumque omnis ducimus dolorum pariatur. Debitis facilis nam placeat fuga recusandae odit voluptates explicabo nihil, reiciendis quis natus, saepe autem quibusdam earum culpa, delectus optio. Fuga commodi doloribus excepturi, ad totam iste odit maiores?</div>
+    </div>
+    <div class="col-12 col-md-6 text-center ">
+      <div class="dash-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aliquam ad neque inventore dicta, ducimus ipsum, enim maxime earum tempora amet asperiores cumque quaerat in veniam voluptatum? Ullam, cumque. Quos rerum laudantium ab explicabo culpa dolore dolor, itaque officia officiis expedita dolorum repellendus velit magnam alias quasi? Quidem officia nemo at, quibusdam minima autem aliquid veritatis a repudiandae repellendus quas tempora cupiditate hic expedita nostrum quam cumque omnis ducimus dolorum pariatur. Debitis facilis nam placeat fuga recusandae odit voluptates explicabo nihil, reiciendis quis natus, saepe autem quibusdam earum culpa, delectus optio. Fuga commodi doloribus excepturi, ad totam iste odit maiores?</div>
+    </div>
+    <div class="col-12 col-md-6 text-center ">
+      <div class="dash-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aliquam ad neque inventore dicta, ducimus ipsum, enim maxime earum tempora amet asperiores cumque quaerat in veniam voluptatum? Ullam, cumque. Quos rerum laudantium ab explicabo culpa dolore dolor, itaque officia officiis expedita dolorum repellendus velit magnam alias quasi? Quidem officia nemo at, quibusdam minima autem aliquid veritatis a repudiandae repellendus quas tempora cupiditate hic expedita nostrum quam cumque omnis ducimus dolorum pariatur. Debitis facilis nam placeat fuga recusandae odit voluptates explicabo nihil, reiciendis quis natus, saepe autem quibusdam earum culpa, delectus optio. Fuga commodi doloribus excepturi, ad totam iste odit maiores?</div>
+    </div>
+    <div class="col-12 col-md-6 text-center ">
+      <div class="dash-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aliquam ad neque inventore dicta, ducimus ipsum, enim maxime earum tempora amet asperiores cumque quaerat in veniam voluptatum? Ullam, cumque. Quos rerum laudantium ab explicabo culpa dolore dolor, itaque officia officiis expedita dolorum repellendus velit magnam alias quasi? Quidem officia nemo at, quibusdam minima autem aliquid veritatis a repudiandae repellendus quas tempora cupiditate hic expedita nostrum quam cumque omnis ducimus dolorum pariatur. Debitis facilis nam placeat fuga recusandae odit voluptates explicabo nihil, reiciendis quis natus, saepe autem quibusdam earum culpa, delectus optio. Fuga commodi doloribus excepturi, ad totam iste odit maiores?</div>
+    </div>
+  </div>
   <script type="module" src="../../../../panahi/assets/js/main.js"></script>
   <script src="../../../../panahi/assets/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <script src="../../../../panahi/assets/js/splide.min.js"></script>
