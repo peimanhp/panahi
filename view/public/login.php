@@ -19,7 +19,7 @@
                     <h1 class="text-center login-title">ورود</h1>
                     <p class="text-login">جهت ورود یا ثبت نام در سایت، شماره موبایل خود را با دقت وارد کنید تا یک پیام حاوی کد فعال سازی برایتان ارسال شود. (فقط کاربران جمهوری اسلامی ایران)</p>
                     <input class="input input-code mb-3" type="text" placeholder="شماره موبایل">
-                    <button class="btn btn-red btn-sms mb-3">ارسال رمز یکبار مصرف</button>
+                    <a href="/panahi/view/private/login2.php" class="btn btn-red btn-sms mb-3">ارسال رمز یکبار مصرف</a>
                 </form>
             </section>
             <section class="girl-wrapper">
@@ -37,7 +37,7 @@
                 <h1 class="text-center login-title">ورود</h1>
                 <p class="text-login">جهت ورود یا ثبت نام در سایت، شماره موبایل خود را با دقت وارد کنید تا یک پیام حاوی کد فعال سازی برایتان ارسال شود. (فقط کاربران جمهوری اسلامی ایران)</p>
                 <input class="input input-code mb-3" type="text" placeholder="شماره موبایل">
-                <button class="btn btn-red btn-sms mb-3">ارسال رمز یکبار مصرف</button>
+                <a href="/panahi/view/private/login2.php" class="btn btn-red btn-sms mb-3">ارسال رمز یکبار مصرف</a>
             </form>
         </section>
     </div>
