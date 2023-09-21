@@ -159,7 +159,7 @@ body {
 .body-dashboard {
   display: grid;
   background-color: #f7f7fb;
-  grid-template-columns: 300px auto;
+  grid-template-columns: 295px auto;
   margin: 2em;
   gap: 2em;
 }
