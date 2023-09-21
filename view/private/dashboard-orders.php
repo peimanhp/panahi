@@ -36,15 +36,15 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-start flex-grow-1">
               <li class="nav-item">
-                <a id="home_btn" class="nav-link py-3 px-3 active" aria-current="page" href="#">
+                <a id="home_btn" class="nav-link py-3 px-3" aria-current="page" href="/panahi/view/private/dashboard-home.php">
                   <div class="d-flex align-items-center">
-                    <img src="/panahi/assets/img/vuesax-outline-home.svg" alt="home" />
+                    <img src="/panahi/assets/img/home-gray.svg" alt="home" />
                     <p class="m-0 pe-2">خانه</p>
                   </div>
                 </a>
               </li>
               <li class="nav-item">
-                <a id="profile_btn" class="nav-link py-3 px-3" aria-current="page" href="#">
+                <a id="profile_btn" class="nav-link py-3 px-3" aria-current="page" href="/panahi/view/private/dashboard-profile.php">
                   <div class="d-flex align-items-center">
                     <img src="/panahi/assets/img/user-edit.svg" alt="profile" />
                     <p class="m-0 pe-2">پـروفایـل</p>
@@ -52,15 +52,15 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a id="orders_btn" class="nav-link py-3 px-3" aria-current="page" href="#">
+                <a id="orders_btn" class="nav-link py-3 px-3 active" aria-current="page" href="/panahi/view/private/dashboard-orders.php">
                   <div class="d-flex align-items-center">
-                    <img src="/panahi/assets/img/vuesax-outline-bag-2.svg" alt="bag" />
+                    <img src="/panahi/assets/img/bag-2-white.svg" alt="bag" />
                     <p class="m-0 pe-2">سفارش ها</p>
                   </div>
                 </a>
               </li>
               <li class="nav-item">
-                <a id="wallet_btn" class="nav-link py-3 px-3" aria-current="page" href="#">
+                <a id="wallet_btn" class="nav-link py-3 px-3" aria-current="page" href="/panahi/view/private/dashboard-support.php">
                   <div class="d-flex align-items-center">
                     <img src="/panahi/assets/img/ticket-icon.svg" alt="ticket" />
                     <p class="m-0 pe-2">پشتیبانی</p>
@@ -76,7 +76,7 @@
                 </a>
               </li> -->
               <li class="nav-item">
-                <a id="logout_btn" class="nav-link py-3 px-3" aria-current="page" href="#">
+                <a id="logout_btn" class="nav-link py-3 px-3" aria-current="page" href="/panahi">
                   <div class="d-flex align-items-center">
                     <img src="/panahi/assets/img/logout.svg" alt="logout" />
                     <p class="m-0 pe-2">خروج</p>
@@ -90,7 +90,7 @@
     </nav>
   </header>
   <div class="row row-gap-4 dash-box-wrapper">
-    <h1>داشبورد</h1>
+    <h1>سفارش ها</h1>
     <div class="col-12 col-md-6 text-center ">
       <div class="dash-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aliquam ad neque inventore dicta, ducimus ipsum, enim maxime earum tempora amet asperiores cumque quaerat in veniam voluptatum? Ullam, cumque. Quos rerum laudantium ab explicabo culpa dolore dolor, itaque officia officiis expedita dolorum repellendus velit magnam alias quasi? Quidem officia nemo at, quibusdam minima autem aliquid veritatis a repudiandae repellendus quas tempora cupiditate hic expedita nostrum quam cumque omnis ducimus dolorum pariatur. Debitis facilis nam placeat fuga recusandae odit voluptates explicabo nihil, reiciendis quis natus, saepe autem quibusdam earum culpa, delectus optio. Fuga commodi doloribus excepturi, ad totam iste odit maiores?</div>
     </div>
@@ -116,9 +116,9 @@
       <div class="dash-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aliquam ad neque inventore dicta, ducimus ipsum, enim maxime earum tempora amet asperiores cumque quaerat in veniam voluptatum? Ullam, cumque. Quos rerum laudantium ab explicabo culpa dolore dolor, itaque officia officiis expedita dolorum repellendus velit magnam alias quasi? Quidem officia nemo at, quibusdam minima autem aliquid veritatis a repudiandae repellendus quas tempora cupiditate hic expedita nostrum quam cumque omnis ducimus dolorum pariatur. Debitis facilis nam placeat fuga recusandae odit voluptates explicabo nihil, reiciendis quis natus, saepe autem quibusdam earum culpa, delectus optio. Fuga commodi doloribus excepturi, ad totam iste odit maiores?</div>
     </div>
   </div>
-  <script type="module" src="../../../../panahi/assets/js/main.js"></script>
-  <script src="../../../../panahi/assets/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  <script src="../../../../panahi/assets/js/splide.min.js"></script>
+  <script type="module" src="/panahi/assets/js/main.js"></script>
+  <script src="/panahi/assets/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="/panahi/assets/js/splide.min.js"></script>
 </body>
 <script>
 
