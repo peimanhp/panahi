@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>وب سایت شخصی عارفه پناهی</title>
-  <link rel="stylesheet" href="/panahi/assets/css/style.css" />
+  <!-- <link rel="stylesheet" href="/panahi/assets/css/style.css" /> -->
   <link rel="stylesheet" href="/panahi/assets/css/dashboard.css" />
   <link href="/panahi/assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
   <link href="/panahi/assets/css/splide.min.css" rel="stylesheet">
@@ -89,7 +89,8 @@
       </div>
     </nav>
   </header>
-  <div class="row row-gap-4">
+  <div class="row row-gap-4 dash-box-wrapper">
+    <h1>داشبورد</h1>
     <div class="col-12 col-md-6 text-center ">
       <div class="dash-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aliquam ad neque inventore dicta, ducimus ipsum, enim maxime earum tempora amet asperiores cumque quaerat in veniam voluptatum? Ullam, cumque. Quos rerum laudantium ab explicabo culpa dolore dolor, itaque officia officiis expedita dolorum repellendus velit magnam alias quasi? Quidem officia nemo at, quibusdam minima autem aliquid veritatis a repudiandae repellendus quas tempora cupiditate hic expedita nostrum quam cumque omnis ducimus dolorum pariatur. Debitis facilis nam placeat fuga recusandae odit voluptates explicabo nihil, reiciendis quis natus, saepe autem quibusdam earum culpa, delectus optio. Fuga commodi doloribus excepturi, ad totam iste odit maiores?</div>
     </div>

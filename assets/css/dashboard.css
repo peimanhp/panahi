@@ -12,6 +12,11 @@
 }
 
 @font-face {
+  font-family: "peida-black";
+  src: url(../fonts/PeydaWeb-Black.woff2);
+}
+
+@font-face {
   font-family: "moraba";
   src: url(../fonts/Morabba-Bold\ [@ClubEdits].ttf);
 }
@@ -51,6 +56,11 @@ h5,
 h6,
 p {
   color: var(--mobile-nav) !important;
+}
+
+h1 {
+  font-family: "peida-black";
+  font-size: 2.5em !important;
 }
 
 body {
@@ -210,6 +220,17 @@ li p {
   .body-dashboard {
     grid-template-columns: 1fr;
     margin: 0;
+  }
+  .nav-styler {
+    background-color: white !important;
+    padding: 1.5em;
+    min-width: 100%;
+  }
+  nav {
+    padding-top: 0 !important;    
+  }
+  .dash-box-wrapper {
+    padding: 0 2em;
   }
 }
 
