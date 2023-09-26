@@ -1,4 +1,5 @@
 :root {
+  --background: #f7f7fb;
   --red: #fc2947;
   --lightRed: #fed4da;
   --purple: #553378;
@@ -158,7 +159,7 @@ body {
 
 .body-dashboard {
   display: grid;
-  background-color: #f7f7fb;
+  background-color: var(--background);
   grid-template-columns: 295px auto;
   margin: 2em;
   gap: 2em;
@@ -197,11 +198,15 @@ li p {
 }
 
 .dash-box {
-  min-width: 80%;  
+  min-width: 80%;
   border-radius: 1em;
   background-color: white;
   padding: 1.5em;
   color: var(--mobile-nav);
+}
+
+.navbar-brand {
+  margin: 0 !important;
 }
 
 @media screen and (max-width: 992px) {
@@ -215,7 +220,7 @@ li p {
     filter: none !important;
   }
   #offcanvasNavbar {
-    background-color: #f7f7fb !important;
+    background-color: var(--background) !important;
   }
   .body-dashboard {
     grid-template-columns: 1fr;
@@ -227,7 +232,7 @@ li p {
     min-width: 100%;
   }
   nav {
-    padding-top: 0 !important;    
+    padding-top: 0 !important;
   }
   .dash-box-wrapper {
     padding: 0 2em;

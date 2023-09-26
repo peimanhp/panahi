@@ -66,15 +66,7 @@
                     <p class="m-0 pe-2">پشتیبانی</p>
                   </div>
                 </a>
-              </li>
-              <!-- <li class="nav-item">
-                <a id="finance_btn" class="nav-link py-3 px-3" aria-current="page" href="#">
-                  <div class="d-flex align-items-center">
-                    <img src="../../../panahi/assets/img/coin.svg" alt="finance" />
-                    <p class="m-0 pe-1">مالی</p>
-                  </div>                  
-                </a>
-              </li> -->
+              </li>              
               <li class="nav-item">
                 <a id="logout_btn" class="nav-link py-3 px-3" aria-current="page" href="/panahi">
                   <div class="d-flex align-items-center">
