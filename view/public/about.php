@@ -1,4 +1,4 @@
-<?php include_once '../../view/header.php' ?>
+<?php include_once '/panahi/view/header.php' ?>
 
 
-<a href="../../index.php">خانه</a>
+<a href="/panahi/index.php">خانه</a>

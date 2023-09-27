@@ -7,7 +7,6 @@
   <title>وب سایت شخصی عارفه پناهی</title>
 
   <link rel="stylesheet" href="/panahi/assets/css/style.css" />
-  <link rel="stylesheet" href="/panahi/assets/css/style.css" />
   <link href="/panahi/assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
   <link href="/panahi/assets/css/splide.min.css" rel="stylesheet">
 </head>
@@ -19,7 +18,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="/panahi/index.php"><img class="logo" src="../../../panahi/assets/img/logo.svg" alt="logo" /></a>
+        <a class="navbar-brand" href="/panahi/index.php"><img class="logo" src="/panahi/assets/img/logo.svg" alt="logo" /></a>
 
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
