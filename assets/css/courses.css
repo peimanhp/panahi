@@ -77,6 +77,10 @@ body {
   font-size: 60px !important;
 }
 
+.text-red {
+  color: var(--red);
+}
+
 .red-title {
   font-family: "moraba";
   color: var(--red);
@@ -98,6 +102,17 @@ body {
 .red-title:hover {
   transition: all 0.2s cubic-bezier(0, 0, 0.23, 1);
   background-position: 100%;
+}
+
+.border-dashed {
+  border-bottom: 1px dashed gray;
+}
+
+.btn-stars {
+  border: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: fit-content !important;
 }
 
 .sub-title {
@@ -216,9 +231,13 @@ background-color: var(--red-dark) !important;
   margin-top: 7em;
 }
 
-.courses-title {
+.third-section {
+  margin-top: 4em;
+}
+
+.courses-title, .courses-title * {
   font-weight: 700;
-  font-size: 2.8em;
+  font-size: 2.8rem;
 }
 
 .courses-content {
@@ -241,7 +260,7 @@ background-color: var(--red-dark) !important;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 350px;
+  min-height: 400px;
   background-color: var(--background);
   padding: 1em;
   border-radius: 25px;
