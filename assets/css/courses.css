@@ -1,6 +1,7 @@
 :root {
   --background: #f7f7fb;
   --red: #fc2947;
+  --red-dark: #E3233E;
   --lightRed: #fed4da;
   --purple: #553378;
   --gray: #e6e6e6;
@@ -74,7 +75,6 @@ body {
 
 .page-title {
   font-size: 60px !important;
-  
 }
 
 .red-title {
@@ -106,7 +106,12 @@ body {
 
 .search-bar {
   border-radius: 1em !important;
-  background: #f1f0f7;
+  background-color: var(--red-dark) !important;
+  border: none !important;
+}
+
+.search-bar::placeholder {
+  color: white !important;
 }
 
 .search-btn {
@@ -116,6 +121,18 @@ body {
 
 .logo {
   width: 3em;
+}
+
+.nav-active {
+  border-bottom: 2px solid white !important;
+  height: 90%;
+  padding-bottom: -20px;  
+}
+
+.btn-dark-red {
+  border-radius: 1em !important;
+  color: white !important;
+background-color: var(--red-dark) !important;
 }
 
 .btn-red {
@@ -200,7 +217,6 @@ body {
 }
 
 .courses-title {
-  font-family: Morabba;
   font-weight: 700;
   font-size: 2.8em;
 }
@@ -217,20 +233,20 @@ body {
 }
 
 .price {
-  font-family: Morabba;
+  font-family: "moraba";
   font-size: 1em;
 }
 
-.course-card-content {
-  max-width: 265px;
+.course-card-content {  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 350px;
+  min-height: 350px;
   background-color: var(--background);
   padding: 1em;
   border-radius: 25px;
   box-shadow: 0px 1px 9px 4px rgba(0, 0, 0, 0.1);
+  min-width: 100%;
 }
 
 .slide-item {
@@ -239,6 +255,7 @@ body {
 
 .slider-img {
   object-fit: contain;
+  margin-bottom: 1em;
 }
 
 .splide__arrows--rtl .splide__arrow--prev {
@@ -267,7 +284,7 @@ body {
 }
 
 .input-time {
-  font-family: "peyda" !important;
+  font-family: "peida-regular" !important;
   font-weight: 600;
   text-align: center;
   width: 130px;
@@ -299,13 +316,13 @@ body {
 }
 
 .sms-wrapper {
-  background-color: #F8F7FA;
+  background-color: #f8f7fa;
   transform: translateX(1px);
-  border-radius: 2em;;
+  border-radius: 2em;
 }
 
 .input-code {
-  font-family: "peyda" !important;
+  font-family: "peida-regular" !important;
   font-weight: 600;
   text-align: center;
   width: 100%;
@@ -406,7 +423,7 @@ body {
   }
   .second-section {
     margin-top: 12em;
-  }  
+  }
   .mobile-view {
     display: none !important;
   }
