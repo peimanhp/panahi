@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>وب سایت شخصی عارفه پناهی</title>
 
-  <link rel="stylesheet" href="/panahi/assets/css/courses.css" />
+  <link rel="stylesheet" href="/panahi/assets/css/course-page.css" />
   <link href="/panahi/assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
   <link href="/panahi/assets/css/splide.min.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <nav dir="rtl" class="navbar navbar-expand-lg navbar-red">
+    <nav dir="rtl" class="navbar navbar-expand-lg navbar-transparent">
       <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
                 <a class="nav-link" aria-current="page" href="/panahi/index.php">صفحه اصلی</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-active" href="/panahi/view/public/courses.php">دوره ها</a>
+                <a class="nav-link" href="/panahi/view/public/courses.php">دوره ها</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">بلاگ</a>
@@ -60,7 +60,7 @@
 
   <section class="first-section">
     <div class="container my-5 text-center">
-      <h1 class="my-5 text-light page-title">دوره های آموزشــــــی</h1>
+      <h1 class="my-5 text-light page-title">تبلیغات</h1>
     </div>
   </section>
   <section class="second-section container">

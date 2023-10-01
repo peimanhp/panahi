@@ -16,7 +16,7 @@
         </div>
         <div class="col-12 col-md-6 p-0">
             <div class="photo-wrapper">
-                <img class="panahi-photo" src="./assets/img/panahi.jpg" alt="panahi pic">
+                <img class="panahi-photo" src="/panahi/assets/img/panahi.jpg" alt="panahi pic">
             </div>
         </div>
     </div>

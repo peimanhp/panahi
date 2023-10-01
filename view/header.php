@@ -37,7 +37,7 @@
                 <a class="nav-link" href="#">بلاگ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">درباره من</a>
+                <a class="nav-link" href="/panahi/view/public/about.php">درباره من</a>
               </li>
             </ul>
             <form class="d-flex position-relative align-items-center" role="search">
