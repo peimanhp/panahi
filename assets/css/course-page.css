@@ -45,7 +45,6 @@ a {
   transition: all 150ms ease;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -56,6 +55,7 @@ p {
 }
 
 body {
+  background-color: #f7f7fb !important;
   overflow-x: hidden;
   padding: 0 !important;
 }
@@ -121,6 +121,7 @@ body {
 }
 
 .sub-title {
+  color: white !important;
   margin-top: 1.5em;
 }
 
@@ -157,6 +158,11 @@ body {
   background: rgba(252, 41, 71, 0.2) !important;
 }
 
+.btn-dark-red:hover {
+  border: none !important;
+  background: var(--red) !important;
+}
+
 .btn-red {
   border-radius: 1em !important;
   color: white !important;
@@ -183,8 +189,14 @@ body {
   width: 9.5rem;
 }
 
+.course-title {
+  margin-top: 1.2em;
+  color: white;
+}
+
 .btn-red:hover {
-  background-color: var(--purple) !important;
+  color: black !important;
+  background-color: var(--gray) !important;
 }
 
 .btn-gray:hover {
@@ -227,6 +239,38 @@ body {
   margin-top: 1em;
 }
 
+.product-img {
+  width: 100%;
+  height: auto;
+}
+
+.product-img-wrapper {
+  border-radius: 1em;
+}
+
+.wrapper {
+  padding: 1em;
+  background-color: white;
+  margin-top: 1em;
+  border-radius: 1em;
+}
+
+.wrapper h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.wrapper h2 span {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--red);
+}
+
+.wrapper p {
+text-align: justify;
+font-weight: 500;
+}
+
 .photo-wrapper {
   display: flex;
   justify-content: center;
@@ -263,8 +307,14 @@ body {
 }
 
 .price {
-  font-family: "moraba";
-  font-size: 1em;
+  background-color: #f8f8f8;
+  border: 2px dashed gray;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.price h3 {
+  font-weight: 900;
 }
 
 .course-card-content {
@@ -376,7 +426,7 @@ body {
   text-align: justify;
   text-justify: inter-character;
   font-weight: 500;
-  line-height: 163.5%; /* 22.89px */
+  line-height: 163.5%;
 }
 
 .login-wrapper {
@@ -399,7 +449,7 @@ body {
 }
 
 @media screen and (max-width: 526px) {
-  .first-section::after {    
+  .first-section::after {
     background-position: 0px -360px !important;
   }
 }
@@ -410,8 +460,7 @@ body {
   }
   #b {
     order: 1;
-  } 
-
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -435,6 +484,15 @@ body {
   }
   .desktop-view {
     display: none !important;
+  }
+  .titles-wrapper {
+    margin-top: 4em !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .first-section::after {
+    background-position: 0 -275px;
   }
 }
 
@@ -479,6 +537,9 @@ body {
   .mobile-view {
     display: none !important;
   }
+}
+
+@media screen and (min-width: 1200px) {
   .first-section {
     background-size: 100vw;
   }

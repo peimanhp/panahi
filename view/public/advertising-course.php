@@ -59,63 +59,38 @@
   </header>
 
   <section class="first-section">
-    <div class="container my-5 text-center">
-      <h1 class="my-5 text-light page-title">تبلیغات</h1>
-    </div>
-  </section>
-  <section class="second-section container">
-    <div class="border-dashed pb-3 px-3 mb-5">
-      <h3 class="courses-title mt-5 mb-4 ">دوره های <span class="text-red">تبلیغات</span></h3>
-      <p class="courses-content">
-        لورم ایپسوم متن ساختگی با تولید
-        سادگی نامفهوم ازصنعت چاپ و با استفاده
-        از طراحان گرافیک است.
-      </p>
-    </div>
-    <div class="row row-gap-4">
-    <div class="col col-12 col-md-6 px-5">
-        <div class="d-flex justify-content-center">
-          <div class="course-card-content">
-            <img class="slider-img" src="/panahi/assets/img/product-sample.png" alt="package-img">
-            <div class="d-flex justify-content-between align-items-center w-100">
-              <div class="d-flex align-items-center gap-1">
-                <img src="/panahi/assets/img/profile-circle.svg" alt="author">
-                <p class="mb-0">مدرس: عارفه پناهی</p>
-              </div>
-              <div dir="ltr" class="d-flex">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/unstar.svg" alt="stars">
-              </div>
-            </div>
-            <h3 class="course-name">دوره آموزشی شماره یک</h3>
-            <h4 class="price">4.000.000 تومان</h4>
-            <button class="btn btn-red">مشاهده</button>
+    <div class="row row-gap-4 container">
+      <div class="col-12 col-md-6 titles-wrapper">
+        <div class="text-center titles">
+          <h1 class="course-title">تبلیغـــات</h1>
+          <h3 class="sub-title">دوره جامع و کامل تبلیغات با روش‌های نوین</h3>
+          <div class="d-flex justify-content-center gap-3 pt-3">
+            <button class="btn first-section-btns btn-dark-red py-3">سر فصل‌ها</button>
+            <button class="btn first-section-btns btn-red py-3">خرید دوره</button>
           </div>
         </div>
       </div>
-      <div class="col col-12 col-md-6 px-5">
-        <div class="d-flex justify-content-center">
-          <div class="course-card-content">
-            <img class="slider-img" src="/panahi/assets/img/product-sample.png" alt="package-img">
-            <div class="d-flex justify-content-between align-items-center w-100">
-              <div class="d-flex align-items-center gap-1">
-                <img src="/panahi/assets/img/profile-circle.svg" alt="author">
-                <p class="mb-0">مدرس: عارفه پناهی</p>
-              </div>
-              <div dir="ltr" class="d-flex">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/unstar.svg" alt="stars">
-              </div>
-            </div>
-            <h3 class="course-name">دوره آموزشی شماره دو</h3>
-            <h4 class="price">4.000.000 تومان</h4>
-            <button class="btn btn-red">مشاهده</button>
+    </div>
+  </section>
+  <section class="second-section container">
+    <div class="row row-gap-2">
+      <div class="col col-12 col-md-6">
+        <div class="product-img-wrapper">
+          <img src="/panahi/assets/img/product-sample.png" alt="package" class="product-img">
+        </div>
+        <div class="wrapper">
+          <h2>دوره پیشرفته <span>تبلیغات</span> و فروش</h2>
+          <h4> صفر تا صد آموزش تبلیغات و فروش به صورت آنلاین</h4>
+          <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
+          <h2><span>چرا</span> این دوره؟!</h2>
+          <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
+        </div>
+      </div>
+      <div class="col col-12 col-md-6">
+        <div class="wrapper">
+          <div class="price d-flex justify-content-between">
+            <h3>قیمت دوره:</h3>
+            <h3>2.000.000 <span>تومان</span></h3>
           </div>
         </div>
       </div>
@@ -131,7 +106,7 @@
       </p>
     </div>
     <div class="row row-gap-4">
-    <div class="col col-12 col-md-6 px-5">
+      <div class="col col-12 col-md-6 px-5">
         <div class="d-flex justify-content-center">
           <div class="course-card-content">
             <img class="slider-img" src="/panahi/assets/img/product-sample.png" alt="package-img">
