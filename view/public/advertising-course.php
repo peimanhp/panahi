@@ -66,7 +66,7 @@
           <h3 class="sub-title">دوره جامع و کامل تبلیغات با روش‌های نوین</h3>
           <div class="d-flex justify-content-center gap-3 pt-3">
             <button class="btn first-section-btns btn-dark-red py-3">سر فصل‌ها</button>
-            <button class="btn first-section-btns btn-red py-3">خرید دوره</button>
+            <button class="btn first-section-btns btn-head py-3">خرید دوره</button>
           </div>
         </div>
       </div>
@@ -74,8 +74,8 @@
   </section>
   <section class="second-section container">
     <div class="row row-gap-2">
-      <div class="col col-12 col-md-6">
-        <div class="product-img-wrapper">
+      <div class="col-12 col-md-7">
+        <div class="wrapper">
           <img src="/panahi/assets/img/product-sample.png" alt="package" class="product-img">
         </div>
         <div class="wrapper">
@@ -86,77 +86,84 @@
           <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
         </div>
       </div>
-      <div class="col col-12 col-md-6">
+      <div class="col-12 col-md-5">
         <div class="wrapper">
-          <div class="price d-flex justify-content-between">
+          <div class="price d-flex justify-content-between align-items-center">
             <h3>قیمت دوره:</h3>
             <h3>2.000.000 <span>تومان</span></h3>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="third-section container mb-5">
-    <div class="border-dashed pb-3 px-3 mb-5">
-      <h3 class="courses-title mt-5 mb-4 ">دوره های <span class="text-red">فروش</span></h3>
-      <p class="courses-content">
-        لورم ایپسوم متن ساختگی با تولید
-        سادگی نامفهوم ازصنعت چاپ و با استفاده
-        از طراحان گرافیک است.
-      </p>
-    </div>
-    <div class="row row-gap-4">
-      <div class="col col-12 col-md-6 px-5">
-        <div class="d-flex justify-content-center">
-          <div class="course-card-content">
-            <img class="slider-img" src="/panahi/assets/img/product-sample.png" alt="package-img">
-            <div class="d-flex justify-content-between align-items-center w-100">
-              <div class="d-flex align-items-center gap-1">
-                <img src="/panahi/assets/img/profile-circle.svg" alt="author">
-                <p class="mb-0">مدرس: عارفه پناهی</p>
-              </div>
-              <div dir="ltr" class="d-flex">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/unstar.svg" alt="stars">
-              </div>
+          <button class="btn btn-red w-100 mt-3">خــــــــرید دوره</button>
+          <div class="d-flex justify-content-between align-items-center w-100 mt-3">
+            <div class="d-flex align-items-center gap-1">
+              <p class="mb-0">امتیاز 4 از 5 رای</p>
             </div>
-            <h3 class="course-name">دوره آموزشی شماره یک</h3>
-            <h4 class="price">4.000.000 تومان</h4>
-            <button class="btn btn-red">مشاهده</button>
+            <div dir="ltr" class="d-flex">
+              <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
+              <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
+              <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
+              <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
+              <img class="star ms-1" src="/panahi/assets/img/unstar.svg" alt="stars">
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col col-12 col-md-6 px-5">
-        <div class="d-flex justify-content-center">
-          <div class="course-card-content">
-            <img class="slider-img" src="/panahi/assets/img/product-sample.png" alt="package-img">
-            <div class="d-flex justify-content-between align-items-center w-100">
-              <div class="d-flex align-items-center gap-1">
-                <img src="/panahi/assets/img/profile-circle.svg" alt="author">
-                <p class="mb-0">مدرس: عارفه پناهی</p>
-              </div>
-              <div dir="ltr" class="d-flex">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/full-star.svg" alt="stars">
-                <img class="star ms-1" src="/panahi/assets/img/unstar.svg" alt="stars">
-              </div>
+        <div class="wrapper">
+          <div class="price d-flex justify-content-between align-items-center">
+            <h3>تعداد هنرجویان:</h3>
+            <div class="d-flex align-items-center">
+              <h3 id="subscribers" class="mt-3">412</h3>
+              <img src="/panahi/assets/img/user.svg" alt="">
             </div>
-            <h3 class="course-name">دوره آموزشی شماره دو</h3>
-            <h4 class="price">4.000.000 تومان</h4>
-            <button class="btn btn-red">مشاهده</button>
+          </div>
+          <div class="d-flex align-items-center mt-3 border-dashed">
+            <img class="ms-1" src="/panahi/assets/img/clock.svg" alt="clock">
+            <p class="course-details-texts">زمان: 30 ساعت</p>
+          </div>
+          <div class="d-flex align-items-center mt-2 border-dashed">
+            <img class="ms-3" src="/panahi/assets/img/seasons.svg" alt="clock">
+            <p class="course-details-texts">تعداد فصل: 5</p>
+          </div>
+          <div class="d-flex align-items-center mt-2 border-dashed">
+            <img class="ms-1" src="/panahi/assets/img/location.svg" alt="clock">
+            <p class="course-details-texts">نوع دوره: غیر حضوری</p>
+          </div>
+          <div class="d-flex align-items-center mt-2 border-dashed">
+            <img class="ms-2" src="/panahi/assets/img/course-size.svg" alt="clock">
+            <p class="course-details-texts">حجم دوره: 5 گیگابایت</p>
+          </div>
+          <div class="d-flex align-items-center mt-2 border-dashed">
+            <img class="ms-2" src="/panahi/assets/img/course-level.svg" alt="clock">
+            <p class="course-details-texts">سطح دوره: پیشرفته</p>
+          </div>
+          <div class="d-flex align-items-center my-2">
+            <img class="ms-2" src="/panahi/assets/img/support.svg" alt="clock">
+            <p class="course-details-texts">پشتیبانی: از طریق تلگرام</p>
+          </div>
+        </div>
+        <div class="wrapper">
+          <h3 class="red-background w-100 text-center p-2 rounded-4 text-light mb-3">شبکه های اجتماعی</h3>
+          <div class="d-flex justify-content-around w-75 mx-auto">
+            <a href="#" target="_blank"><img src="/panahi/assets/img/youtube-logo.svg" alt="youtube"></a>
+            <a href="#" target="_blank"><img src="/panahi/assets/img/facebook-logo.svg" alt="facebook"></a>
+            <a href="#" target="_blank"><img src="/panahi/assets/img/whats-logo.svg" alt="whatsapp"></a>
+            <a href="#" target="_blank"><img src="/panahi/assets/img/insta-logo.svg" alt="instagram"></a>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <section class="container">
+    <h2 class="second-sec-title mt-5 mb-3">ویژگی ‌های این <span class="text-red second-sec-title">دوره</span></h2>
+    <div class="row">
+      <div class="col-12 col-md-3 wrapper features">
+        <h3>زبان ساده</h3>
+        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طــــراحان گرافیک است. چاپگــــــرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنـــــان که لازم است و برای شرایـــط فعلـــــــی تکنولوژی مورد نیــــــاز و کاربردهای متنوع با هـــــــدف بهبود ابـــــزارهای کاربردی می باشد. </p>
+      </div>
+    </div>
+  </section>
+  
 
 
-  <script type="module" src="/panahi/assets/js/courses.js"></script>
+  <script type="module" src="/panahi/assets/js/coursePage.js"></script>
   <script src="/panahi/assets/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 
