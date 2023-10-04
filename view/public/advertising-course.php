@@ -188,62 +188,187 @@
       </div>
     </div>
   </section>
+
+
   <section class="container">
-    <h2 class="second-sec-title mt-0 mb-4">سرفصل های <span class="text-red second-sec-title">دوره</span></h2>
-    <div class="wrapper">
-      <div class="d-flex justify-content-between align-items-center mb-3">
-        <div>
-          <h3>فصل اول : آموزش مقدماتی تبلیغات</h3>
-          <p class="m-0 p-0">تعداد جلسات: 3 جلسه - مدت زمان: 3 ساعت</p>
+    <div class="accordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <div class="text-right">
+              <h3>فصل اول : آموزش مقدماتی تبلیغات</h3>
+              <p class="text-right m-0 p-0">تعداد جلسات: 3 جلسه - مدت زمان: 3 ساعت</p>
+            </div>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <table id="session1">
+              <tr>
+                <td class="py-2">
+                  <h5 class="m-0 p-0">جلسه اول: آموزش مبتدی تبلیغات</h5>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <p class="m-0 p-0">مدت زمان:50 دقیقه</p>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <div class="d-flex justify-content-end align-items-center mobile-hidden">
+                    <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
+                    <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-2">
+                  <h5 class="m-0 p-0">جلسه دوم: تاثیر تبلیغات در فروش</h5>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <p class="m-0 p-0">مدت زمان:1ساعت و 10 دقیقه</p>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <div class="d-flex justify-content-end align-items-center mobile-hidden">
+                    <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
+                    <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-2">
+                  <h5 class="m-0 p-0">جلسه سوم: تاثیر تبلیغات گسترده در برندینگ</h5>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <p class="m-0 p-0">مدت زمان:1ساعت</p>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <div class="d-flex justify-content-end align-items-center mobile-hidden">
+                    <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
+                    <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
         </div>
-        <img class="arrow" src="/panahi/assets/img/arrow.svg" alt="arrow">
       </div>
-      <table>
-        <tr>
-          <td class="py-2">
-            <h5 class="m-0 p-0">جلسه اول: آموزش مبتدی تبلیغات</h5>
-          </td>
-          <td class="py-2 mobile-hidden">
-            <p class="m-0 p-0">مدت زمان:50 دقیقه</p>
-          </td>
-          <td class="py-2 mobile-hidden">
-            <div class="d-flex justify-content-end align-items-center mobile-hidden">
-              <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
-              <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <div class="text-right">
+              <h3>فصل دوم : آموزش  تبلیغات زرد</h3>
+              <p class="text-right m-0 p-0">تعداد جلسات: 6 جلسه - مدت زمان: 5 ساعت</p>
             </div>
-          </td>
-        </tr>
-        <tr>
-          <td class="py-2">
-            <h5 class="m-0 p-0">جلسه دوم: تاثیر تبلیغات در فروش</h5>
-          </td>
-          <td class="py-2 mobile-hidden">
-            <p class="m-0 p-0">مدت زمان:1ساعت و 10 دقیقه</p>
-          </td>
-          <td class="py-2 mobile-hidden">
-            <div class="d-flex justify-content-end align-items-center mobile-hidden">
-              <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
-              <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <table id="session1">
+              <tr>
+                <td class="py-2">
+                  <h5 class="m-0 p-0">جلسه اول: آموزش مبتدی تبلیغات</h5>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <p class="m-0 p-0">مدت زمان:50 دقیقه</p>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <div class="d-flex justify-content-end align-items-center mobile-hidden">
+                    <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
+                    <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-2">
+                  <h5 class="m-0 p-0">جلسه دوم: تاثیر تبلیغات در فروش</h5>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <p class="m-0 p-0">مدت زمان:1ساعت و 10 دقیقه</p>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <div class="d-flex justify-content-end align-items-center mobile-hidden">
+                    <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
+                    <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-2">
+                  <h5 class="m-0 p-0">جلسه سوم: تاثیر تبلیغات گسترده در برندینگ</h5>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <p class="m-0 p-0">مدت زمان:1ساعت</p>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <div class="d-flex justify-content-end align-items-center mobile-hidden">
+                    <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
+                    <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <div class="text-right">
+              <h3>فصل سوم : آموزش  تبلیغات در اینستاگرام</h3>
+              <p class="text-right m-0 p-0">تعداد جلسات: 10 جلسه - مدت زمان: 8 ساعت</p>
             </div>
-          </td>
-        </tr>
-        <tr>
-          <td class="py-2">
-            <h5 class="m-0 p-0">جلسه سوم: تاثیر تبلیغات گسترده در برندینگ</h5>
-          </td>
-          <td class="py-2 mobile-hidden">
-            <p class="m-0 p-0">مدت زمان:1ساعت</p>
-          </td>
-          <td class="py-2 mobile-hidden">
-            <div class="d-flex justify-content-end align-items-center mobile-hidden">
-              <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
-              <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
-            </div>
-          </td>
-        </tr>
-      </table>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <table id="session1">
+              <tr>
+                <td class="py-2">
+                  <h5 class="m-0 p-0">جلسه اول: آموزش مبتدی تبلیغات</h5>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <p class="m-0 p-0">مدت زمان:50 دقیقه</p>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <div class="d-flex justify-content-end align-items-center mobile-hidden">
+                    <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
+                    <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-2">
+                  <h5 class="m-0 p-0">جلسه دوم: تاثیر تبلیغات در فروش</h5>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <p class="m-0 p-0">مدت زمان:1ساعت و 10 دقیقه</p>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <div class="d-flex justify-content-end align-items-center mobile-hidden">
+                    <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
+                    <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-2">
+                  <h5 class="m-0 p-0">جلسه سوم: تاثیر تبلیغات گسترده در برندینگ</h5>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <p class="m-0 p-0">مدت زمان:1ساعت</p>
+                </td>
+                <td class="py-2 mobile-hidden">
+                  <div class="d-flex justify-content-end align-items-center mobile-hidden">
+                    <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
+                    <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
+
 
 
 

@@ -42,3 +42,4 @@ document.addEventListener("scroll", () => {
   navBtn.style.backgroundColor =
     window.scrollY > 400 ? "#553378" : "rgba(252, 41, 71, 0.2)";
 });
+
