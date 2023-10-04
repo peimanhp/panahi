@@ -124,11 +124,13 @@ body {
 .sub-title {
   color: white !important;
   margin-top: 1.5em;
+  
 }
 
 .second-sec-title {
   font-size: 3rem !important;
   font-weight: 900;
+  margin: 1em 0;
 }
 
 .search-bar {
@@ -205,26 +207,28 @@ body {
 }
 
 .features {
+  transform: translateY(-1px);
   transition: all 0.5s;
-  position: relative;  
 }
 .features:hover {
-  transform: translateY(-7px);
+  transform: translateY(-10px);
 }
 
-.features::before {
-  position: absolute;
+.features h3 {
+  font-weight: 900;
+}
+
+.features-before {
   width: 100%;
-  height: 100%;
-  border-radius: 1em !important;
-  bottom: 0;
-  left: 0;
+  height: 85%;
+  border-radius: 1em !important;  
   content: "";
   background: var(--red) !important;
   z-index: -1 !important;
   transition: all 0.5s;
 }
-.features:hover::before {
+.features-before:hover {
+  height: 92%;
   transform: translateY(7px) !important;
   z-index: -1 !important;
 }
@@ -349,7 +353,7 @@ body {
   padding: 0.7em;
 }
 
-.price h3 {
+.price h4 {
   font-weight: 900;
   margin: 0;
 }
@@ -369,7 +373,7 @@ body {
 .course-details-texts {
   margin: 0;
   padding: 0;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .border-dashed {
@@ -500,6 +504,27 @@ body {
   background-color: #fff;
 }
 
+.course-item {
+  border-top: 1px solid gray;
+  padding:.7em 0;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  border-top: 1px solid gray !important;
+}
+
+.details img {
+  transform: scale(0.8);
+}
+
+.arrow {
+  transform: scale(0.5);
+}
+
 @media screen and (max-width: 526px) {
   .first-section::after {
     background-position: 0px -360px !important;
@@ -512,6 +537,9 @@ body {
   }
   #b {
     order: 1;
+  }
+  .mobile-hidden {
+    display: none;
   }
 }
 
@@ -591,6 +619,9 @@ body {
   }
   .navbar-transparent {
     position: fixed !important;
+  }
+  #feature2, #feature4 {
+    margin-top: 1.5em;
   }
 }
 

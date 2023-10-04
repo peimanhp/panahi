@@ -89,8 +89,8 @@
       <div class="col-12 col-md-5">
         <div class="wrapper">
           <div class="price d-flex justify-content-between align-items-center">
-            <h3>قیمت دوره:</h3>
-            <h3>2.000.000 <span>تومان</span></h3>
+            <h4>قیمت دوره:</h4>
+            <h4>2.000.000 <span>تومان</span></h4>
           </div>
           <button class="btn btn-red w-100 mt-3">خــــــــرید دوره</button>
           <div class="d-flex justify-content-between align-items-center w-100 mt-3">
@@ -106,11 +106,11 @@
             </div>
           </div>
         </div>
-        <div class="wrapper">
+        <div class="wrapper details">
           <div class="price d-flex justify-content-between align-items-center">
-            <h3>تعداد هنرجویان:</h3>
+            <h4>تعداد هنرجویان:</h4>
             <div class="d-flex align-items-center">
-              <h3 id="subscribers" class="mt-3">412</h3>
+              <h4 id="subscribers" class="mt-1">412</h4>
               <img src="/panahi/assets/img/user.svg" alt="">
             </div>
           </div>
@@ -119,7 +119,7 @@
             <p class="course-details-texts">زمان: 30 ساعت</p>
           </div>
           <div class="d-flex align-items-center mt-2 border-dashed">
-            <img class="ms-3" src="/panahi/assets/img/seasons.svg" alt="clock">
+            <img class="ms-2 me-1" src="/panahi/assets/img/seasons.svg" alt="clock">
             <p class="course-details-texts">تعداد فصل: 5</p>
           </div>
           <div class="d-flex align-items-center mt-2 border-dashed">
@@ -140,7 +140,7 @@
           </div>
         </div>
         <div class="wrapper">
-          <h3 class="red-background w-100 text-center p-2 rounded-4 text-light mb-3">شبکه های اجتماعی</h3>
+          <h4 class="red-background w-100 text-center p-2 rounded-4 text-light mb-3">شبکه های اجتماعی</h4>
           <div class="d-flex justify-content-around w-75 mx-auto">
             <a href="#" target="_blank"><img src="/panahi/assets/img/youtube-logo.svg" alt="youtube"></a>
             <a href="#" target="_blank"><img src="/panahi/assets/img/facebook-logo.svg" alt="facebook"></a>
@@ -152,15 +152,99 @@
     </div>
   </section>
   <section class="container">
-    <h2 class="second-sec-title mt-5 mb-3">ویژگی ‌های این <span class="text-red second-sec-title">دوره</span></h2>
-    <div class="row">
-      <div class="col-12 col-md-3 wrapper features">
-        <h3>زبان ساده</h3>
-        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طــــراحان گرافیک است. چاپگــــــرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنـــــان که لازم است و برای شرایـــط فعلـــــــی تکنولوژی مورد نیــــــاز و کاربردهای متنوع با هـــــــدف بهبود ابـــــزارهای کاربردی می باشد. </p>
+    <h2 class="second-sec-title">ویژگی ‌های این <span class="text-red second-sec-title">دوره</span></h2>
+    <div class="row features-wrapper">
+      <div class="col-12 col-md-3 mb-5">
+        <div class="features-before">
+          <div class="wrapper features m-0">
+            <h3 class="text-center">زبان ساده</h3>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طــــراحان گرافیک است. چاپگــــــرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنـــــان که لازم است و برای شرایـــط فعلـــــــی تکنولوژی مورد نیــــــاز و کاربردهای متنوع با هـــــــدف بهبود ابـــــزارهای کاربردی می باشد. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-5">
+        <div id="feature2" class="features-before">
+          <div class="wrapper features m-0">
+            <h3 class="text-center">سرعت بالا</h3>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طــــراحان گرافیک است. چاپگــــــرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنـــــان که لازم است و برای شرایـــط فعلـــــــی تکنولوژی مورد نیــــــاز و کاربردهای متنوع با هـــــــدف بهبود ابـــــزارهای کاربردی می باشد. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-5">
+        <div class="features-before">
+          <div class="wrapper features m-0">
+            <h3 class="text-center">مفهومی</h3>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طــــراحان گرافیک است. چاپگــــــرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنـــــان که لازم است و برای شرایـــط فعلـــــــی تکنولوژی مورد نیــــــاز و کاربردهای متنوع با هـــــــدف بهبود ابـــــزارهای کاربردی می باشد. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-5">
+        <div id="feature4" class="features-before">
+          <div class="wrapper features m-0">
+            <h3 class="text-center">پیشرفته</h3>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طــــراحان گرافیک است. چاپگــــــرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنـــــان که لازم است و برای شرایـــط فعلـــــــی تکنولوژی مورد نیــــــاز و کاربردهای متنوع با هـــــــدف بهبود ابـــــزارهای کاربردی می باشد. </p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  
+  <section class="container">
+    <h2 class="second-sec-title mt-0 mb-4">سرفصل های <span class="text-red second-sec-title">دوره</span></h2>
+    <div class="wrapper">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <div>
+          <h3>فصل اول : آموزش مقدماتی تبلیغات</h3>
+          <p class="m-0 p-0">تعداد جلسات: 3 جلسه - مدت زمان: 3 ساعت</p>
+        </div>
+        <img class="arrow" src="/panahi/assets/img/arrow.svg" alt="arrow">
+      </div>
+      <table>
+        <tr>
+          <td class="py-2">
+            <h5 class="m-0 p-0">جلسه اول: آموزش مبتدی تبلیغات</h5>
+          </td>
+          <td class="py-2 mobile-hidden">
+            <p class="m-0 p-0">مدت زمان:50 دقیقه</p>
+          </td>
+          <td class="py-2 mobile-hidden">
+            <div class="d-flex justify-content-end align-items-center mobile-hidden">
+              <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
+              <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="py-2">
+            <h5 class="m-0 p-0">جلسه دوم: تاثیر تبلیغات در فروش</h5>
+          </td>
+          <td class="py-2 mobile-hidden">
+            <p class="m-0 p-0">مدت زمان:1ساعت و 10 دقیقه</p>
+          </td>
+          <td class="py-2 mobile-hidden">
+            <div class="d-flex justify-content-end align-items-center mobile-hidden">
+              <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
+              <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="py-2">
+            <h5 class="m-0 p-0">جلسه سوم: تاثیر تبلیغات گسترده در برندینگ</h5>
+          </td>
+          <td class="py-2 mobile-hidden">
+            <p class="m-0 p-0">مدت زمان:1ساعت</p>
+          </td>
+          <td class="py-2 mobile-hidden">
+            <div class="d-flex justify-content-end align-items-center mobile-hidden">
+              <p class="m-0 p-0 ms-2 mobile-hidden">خصوصی</p>
+              <img class="mobile-hidden" src="/panahi/assets/img/lock.svg" alt="lock">
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
 
 
   <script type="module" src="/panahi/assets/js/coursePage.js"></script>
