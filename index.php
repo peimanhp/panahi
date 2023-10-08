@@ -9,8 +9,8 @@
                 <h3 class="sub-title">بهترین و بروز ترین دوره‌های آموزش‌
                     جامع تبلیغات</h3>
                 <div class="d-flex justify-content-center gap-3 pt-3">
-                    <button class="btn first-section-btns btn-gray py-3">مشاهده دوره ها</button>
-                    <button class="btn first-section-btns btn-red py-3">دربـــــــــــــاره من</button>
+                    <a href="/panahi/view/public/courses.php" class="btn first-section-btns btn-gray py-3">مشاهده دوره ها</a>
+                    <a href="/panahi/view/public/about.php" class="btn first-section-btns btn-red py-3">دربـــــــــــــاره من</a>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@
                 از طراحان گرافیک است.
             </p>
             <div class="d-grid gap-2 col-6 mx-auto mt-5">
-                <button class="btn btn-gray">مشاهده همه</button>
+                <a href="/panahi/view/public/courses.php" class="btn btn-gray">مشاهده همه</a>
             </div>
         </div>
         <div class="col col-12 col-md-7 col-lg-9 col-xl-8 col-xxl-9 px-5">
@@ -48,7 +48,7 @@
                                     </div>
                                     <h3 class="course-name">دوره آموزشی شماره یک</h3>
                                     <h4 class="price">4.000.000 تومان</h4>
-                                    <button class="btn btn-red">مشاهده</button>
+                                    <a href="/panahi/view/public/advertising-course.php" class="btn btn-red">مشاهده</a>
                                 </div>
                             </div>
                         </li>
@@ -62,7 +62,7 @@
                                     </div>
                                     <h3 class="course-name">دوره آموزشی شماره دو</h3>
                                     <h4 class="price">4.000.000 تومان</h4>
-                                    <button class="btn btn-red">مشاهده</button>
+                                    <a href="/panahi/view/public/advertising-course.php" class="btn btn-red">مشاهده</a>
                                 </div>
                             </div>
                         </li>
@@ -76,7 +76,7 @@
                                     </div>
                                     <h3 class="course-name">دوره آموزشی شماره سه</h3>
                                     <h4 class="price">4.000.000 تومان</h4>
-                                    <button class="btn btn-red">مشاهده</button>
+                                    <a href="/panahi/view/public/advertising-course.php" class="btn btn-red">مشاهده</a>
                                 </div>
                             </div>
                         </li>
@@ -90,7 +90,7 @@
                                     </div>
                                     <h3 class="course-name">دوره آموزشی شماره چهار</h3>
                                     <h4 class="price">4.000.000 تومان</h4>
-                                    <button class="btn btn-red">مشاهده</button>
+                                    <a href="/panahi/view/public/advertising-course.php" class="btn btn-red">مشاهده</a>
                                 </div>
                             </div>
                         </li>
@@ -104,7 +104,7 @@
                                     </div>
                                     <h3 class="course-name">دوره آموزشی شماره پنج</h3>
                                     <h4 class="price">4.000.000 تومان</h4>
-                                    <button class="btn btn-red">مشاهده</button>
+                                    <a href="/panahi/view/public/advertising-course.php" class="btn btn-red">مشاهده</a>
                                 </div>
                             </div>
                         </li>
@@ -118,7 +118,7 @@
                                     </div>
                                     <h3 class="course-name">دوره آموزشی شماره شش</h3>
                                     <h4 class="price">4.000.000 تومان</h4>
-                                    <button class="btn btn-red">مشاهده</button>
+                                    <a href="/panahi/view/public/advertising-course.php" class="btn btn-red">مشاهده</a>
                                 </div>
                             </div>
                         </li>

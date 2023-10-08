@@ -513,7 +513,7 @@ table {
 }
 
 tr {
-  border-top: 1px solid gray !important;
+  border-top: 1px solid rgb(208, 208, 208) !important;
 }
 
 .details img {
@@ -535,8 +535,18 @@ tr {
   box-shadow: none !important;
 }
 
+.accordion {
+  --bs-accordion-border-radius: 1em !important;  
+  --bs-accordion-inner-border-radius: 1em !important;
+  --bs-accordion-border-color: none !important;
+}
+
 .text-right {
   text-align: right;
+}
+
+#sessions {
+  margin-bottom: 2em;
 }
 
 @media screen and (max-width: 526px) {
@@ -554,7 +564,7 @@ tr {
   }
   .mobile-hidden {
     display: none;
-  }
+  }  
 }
 
 @media screen and (max-width: 992px) {
@@ -638,6 +648,10 @@ tr {
   #feature4 {
     margin-top: 1.5em;
   }
+  #sessions {
+    scroll-margin-top: 100px;
+  }
+  
 }
 
 @media screen and (min-width: 1200px) {

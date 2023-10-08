@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>وب سایت شخصی عارفه پناهی</title>
 
+  <link rel="stylesheet" href="/panahi/assets/css/footer.css">
   <link rel="stylesheet" href="/panahi/assets/css/course-page.css" />
   <link href="/panahi/assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
   <link href="/panahi/assets/css/splide.min.css" rel="stylesheet">
@@ -65,7 +66,7 @@
           <h1 class="course-title">تبلیغـــات</h1>
           <h3 class="sub-title">دوره جامع و کامل تبلیغات با روش‌های نوین</h3>
           <div class="d-flex justify-content-center gap-3 pt-3">
-            <button class="btn first-section-btns btn-dark-red py-3">سر فصل‌ها</button>
+            <a href="#sessions" class="btn first-section-btns btn-dark-red py-3">سر فصل‌ها</a>
             <button class="btn first-section-btns btn-head py-3">خرید دوره</button>
           </div>
         </div>
@@ -190,7 +191,7 @@
   </section>
 
 
-  <section class="container">
+  <section id="sessions" class="container">
     <div class="accordion">
       <div class="accordion-item">
         <h2 class="accordion-header">
@@ -254,7 +255,7 @@
         <h2 class="accordion-header">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
             <div class="text-right">
-              <h3>فصل دوم : آموزش  تبلیغات زرد</h3>
+              <h3>فصل دوم : آموزش تبلیغات زرد</h3>
               <p class="text-right m-0 p-0">تعداد جلسات: 6 جلسه - مدت زمان: 5 ساعت</p>
             </div>
           </button>
@@ -312,7 +313,7 @@
         <h2 class="accordion-header">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
             <div class="text-right">
-              <h3>فصل سوم : آموزش  تبلیغات در اینستاگرام</h3>
+              <h3>فصل سوم : آموزش تبلیغات در اینستاگرام</h3>
               <p class="text-right m-0 p-0">تعداد جلسات: 10 جلسه - مدت زمان: 8 ساعت</p>
             </div>
           </button>
@@ -368,10 +369,23 @@
       </div>
     </div>
   </section>
+  <footer class="footer d-flex justify-content-center py-3" dir="ltr">
+    <div class="row container px-lg-5 row-gap-3">
+      <p id="copyright" class="col-md-6 col-sm-12 mb-0 mx-auto d-flex align-self-center"></p>
+      <div class="col-md-6 col-sm-12 d-flex align-items-center social-wrapper">
+        <a class="mx-2" href="#" target="”_blank”"><img class="social-icons" src="/panahi/assets/img/whats-logo.svg" alt="whatsapp" />
+        </a>
+        <a class="mx-2" href="#" target="”_blank”">
+          <img class="social-icons" src="/panahi/assets/img/insta-logo.svg" alt="instagram" />
+        </a>
+        <a class="mx-2" href="#" target="”_blank”">
+          <img class="social-icons" src="/panahi/assets/img/youtube-logo.svg" alt="youtube" />
+        </a>
+      </div>
+    </div>
+  </footer>
 
-
-
-
+  <script src="/panahi/assets/js/footer.js"></script>
   <script type="module" src="/panahi/assets/js/coursePage.js"></script>
   <script src="/panahi/assets/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>

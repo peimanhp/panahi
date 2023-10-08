@@ -125,6 +125,17 @@ body {
   border-radius: 1em !important;
 }
 
+.validation-message {
+  display: none;
+}
+.validation-message.show {
+  display: block;
+}
+
+.input:focus {
+  outline: none !important;
+}
+
 .btn-gray {
   border-radius: 1em !important;
   color: white !important;

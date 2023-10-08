@@ -92,7 +92,7 @@
             </div>
             <h3 class="course-name">دوره آموزشی شماره یک</h3>
             <h4 class="price">4.000.000 تومان</h4>
-            <button class="btn btn-red">مشاهده</button>
+            <a href="/panahi/view/public/advertising-course.php" class="btn btn-red">مشاهده</a>
           </div>
         </div>
       </div>
@@ -115,7 +115,7 @@
             </div>
             <h3 class="course-name">دوره آموزشی شماره دو</h3>
             <h4 class="price">4.000.000 تومان</h4>
-            <button class="btn btn-red">مشاهده</button>
+            <a href="/panahi/view/public/advertising-course.php" class="btn btn-red">مشاهده</a>
           </div>
         </div>
       </div>
@@ -150,7 +150,7 @@
             </div>
             <h3 class="course-name">دوره آموزشی شماره یک</h3>
             <h4 class="price">4.000.000 تومان</h4>
-            <button class="btn btn-red">مشاهده</button>
+            <a href="/panahi/view/public/advertising-course.php" class="btn btn-red">مشاهده</a>
           </div>
         </div>
       </div>
@@ -173,7 +173,7 @@
             </div>
             <h3 class="course-name">دوره آموزشی شماره دو</h3>
             <h4 class="price">4.000.000 تومان</h4>
-            <button class="btn btn-red">مشاهده</button>
+            <a href="/panahi/view/public/advertising-course.php" class="btn btn-red">مشاهده</a>
           </div>
         </div>
       </div>
