@@ -4,9 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>وب سایت شخصی عارفه پناهی</title>
+  <title><?php echo "عارفه پناهی | $title";?></title>
 
-  <link rel="stylesheet" href="/panahi/assets/css/style.css" />
+  <?php if($title == "سبد خرید"){ echo "<link rel='stylesheet' href='/panahi/assets/css/cart.css' />
+";}else{echo "  <link rel='stylesheet' href='/panahi/assets/css/style.css' />
+";} ?>
   <link href="/panahi/assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
   <link href="/panahi/assets/css/splide.min.css" rel="stylesheet">
 </head>
